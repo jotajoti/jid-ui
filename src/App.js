@@ -15,6 +15,7 @@ import iso3to2 from 'country-iso-3-to-2';
 import geoJson from './geojson/countries.geo';
 import logoImage from './logo.png';
 import countries from './countries';
+import {serverUrl} from "./config";
 
 const styles = {
     root: {
@@ -58,7 +59,7 @@ export const App = withStyles(styles)(props => {
 
     useEffect(() => {
         const fetchStats = async () => {
-            const response = await fetch('http://192.168.1.236:3000/stats');
+            const response = await fetch(serverUrl);
             const body = await response.json();
             body.countryMap = body.countries.reduce((lookupMap, country) => {
                 lookupMap[country.country] = country;
