@@ -13,9 +13,10 @@ import Paper from "@material-ui/core/Paper";
 import {GeoJSON, Map} from "react-leaflet";
 import iso3to2 from 'country-iso-3-to-2';
 import geoJson from './geojson/countries.geo';
+import moment from 'moment';
 import logoImage from './logo.png';
 import countries from './countries';
-import {serverUrl} from "./config";
+import {newCountryTime, serverUrl} from "./config";
 
 const styles = {
     root: {
@@ -43,6 +44,9 @@ const styles = {
     },
     totals: {
         padding: 8
+    },
+    new: {
+        backgroundColor: '#FFFF00'
     }
 };
 
@@ -69,12 +73,12 @@ export const App = withStyles(styles)(props => {
             setLoading(false);
         };
         fetchStats().then(() => {
-            console.log('Adding refresh');
             setInterval(fetchStats, 5 * 1000);
         });
     }, []);
 
     const center = [30, 10];
+    const newCountryIndicator = moment().subtract(newCountryTime, 'minutes');
 
     return (
         <div className={classes.root}>
@@ -111,9 +115,12 @@ export const App = withStyles(styles)(props => {
                                     <GeoJSON data={geoJson} style={feature => {
                                         const countryCode = iso3to2(feature.id) ? iso3to2(feature.id).toLowerCase() : null;
                                         const statsCountry = stats.countryMap[countryCode];
+                                        const firstCreated = statsCountry ? moment(statsCountry.created) : null;
+                                        const newlyCreated = firstCreated && newCountryIndicator.isBefore(firstCreated);
                                         return {
                                             weight: 1,
-                                            fillColor: statsCountry ? '#FF0000' : '#0000FF'
+                                            color: '#8a8a8a',
+                                            fillColor: newlyCreated ? '#FFFF00' : statsCountry ? '#0000FF' : '#888888'
                                         };
                                     }}/>
                                 </Map>
@@ -155,14 +162,18 @@ export const App = withStyles(styles)(props => {
                                         </TableRow>
                                     </TableHead>
                                     <TableBody>
-                                        {stats.countries.map(country => (
-                                            <TableRow key={country.country}>
-                                                <TableCell component="th" scope="row">
-                                                    {countryMap[country.country.toUpperCase()] ? countryMap[country.country.toUpperCase()] : country.country}
-                                                </TableCell>
-                                                <TableCell align="right">{country.jids}</TableCell>
-                                            </TableRow>
-                                        ))}
+                                        {stats.countries.map(country => {
+                                            const firstCreated = moment(country.created);
+                                            const newlyCreated = newCountryIndicator.isBefore(firstCreated);
+                                            return (
+                                                <TableRow key={country.country} className={newlyCreated ? classes.new : ''}>
+                                                    <TableCell component="th" scope="row">
+                                                        {countryMap[country.country.toUpperCase()] ? countryMap[country.country.toUpperCase()] : country.country}
+                                                    </TableCell>
+                                                    <TableCell align="right">{country.jids}</TableCell>
+                                                </TableRow>
+                                            );
+                                        })}
                                     </TableBody>
                                 </Table>
                             </Paper>
