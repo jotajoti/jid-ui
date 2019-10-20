@@ -8,7 +8,7 @@ msgstr ""
 "Language: sv\n"
 "Project-Id-Version: jid-ui\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-10-20 13:26\n"
+"PO-Revision-Date: 2019-10-20 14:16\n"
 "Last-Translator: frankbille-test1\n"
 "Language-Team: Swedish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -23,11 +23,11 @@ msgstr "Länder"
 
 #: src/App.js:163
 msgid "Country name"
-msgstr "Landenamn"
+msgstr "Landsnamn"
 
 #: src/App.js:98
 msgid "Loading"
-msgstr "Läser in"
+msgstr "Laddar"
 
 #: src/App.js:138
 msgid "Name"
@@ -39,18 +39,18 @@ msgstr "Resultattavla"
 
 #: src/App.js:104
 msgid "Total number of JID codes: {0}"
-msgstr ""
+msgstr "Totalt antal JID koder: {0}"
 
 #: src/App.js:107
 msgid "Unique JID codes: {0}"
-msgstr ""
+msgstr "Unika JID-koder: {0}"
 
 #: src/App.js:140
 #: src/App.js:164
 msgid "Unique codes"
-msgstr ""
+msgstr "Unika koder"
 
 #: src/App.js:110
 msgid "Unique countries: {0}"
-msgstr ""
+msgstr "Unika länder: {0}"
 
