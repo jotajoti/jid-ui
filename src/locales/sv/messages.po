@@ -5,52 +5,52 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: crowdin.com\n"
-"Language: da\n"
+"Language: sv\n"
 "Project-Id-Version: jid-ui\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-10-20 13:18\n"
+"PO-Revision-Date: 2019-10-20 14:16\n"
 "Last-Translator: frankbille-test1\n"
-"Language-Team: Danish\n"
+"Language-Team: Swedish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: jid-ui\n"
-"X-Crowdin-Language: da\n"
+"X-Crowdin-Language: sv-SE\n"
 "X-Crowdin-File: /master/src/locales/en/messages.po\n"
 
 #: src/App.js:139
 #: src/App.js:159
 msgid "Countries"
-msgstr "Lande"
+msgstr "Länder"
 
 #: src/App.js:163
 msgid "Country name"
-msgstr "Landenavn"
+msgstr "Landsnamn"
 
 #: src/App.js:98
 msgid "Loading"
-msgstr "Indlæser"
+msgstr "Laddar"
 
 #: src/App.js:138
 msgid "Name"
-msgstr "Navn"
+msgstr "Namn"
 
 #: src/App.js:134
 msgid "Scoreboard"
-msgstr "Stillinger"
+msgstr "Resultattavla"
 
 #: src/App.js:104
 msgid "Total number of JID codes: {0}"
-msgstr "Total antal JID koder: {0}"
+msgstr "Totalt antal JID koder: {0}"
 
 #: src/App.js:107
 msgid "Unique JID codes: {0}"
-msgstr "Unikke JID koder: {0}"
+msgstr "Unika JID-koder: {0}"
 
 #: src/App.js:140
 #: src/App.js:164
 msgid "Unique codes"
-msgstr "Unikke koder"
+msgstr "Unika koder"
 
 #: src/App.js:110
 msgid "Unique countries: {0}"
-msgstr "Unikke lande: {0}"
+msgstr "Unika länder: {0}"
 
