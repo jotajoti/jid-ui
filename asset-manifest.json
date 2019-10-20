@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/jid-ui/static/js/main.ffeb8dc9.chunk.js",
+    "main.js.map": "/jid-ui/static/js/main.ffeb8dc9.chunk.js.map",
+    "runtime-main.js": "/jid-ui/static/js/runtime-main.17b7ecd6.js",
+    "runtime-main.js.map": "/jid-ui/static/js/runtime-main.17b7ecd6.js.map",
+    "static/js/2.981e23b6.chunk.js": "/jid-ui/static/js/2.981e23b6.chunk.js",
+    "static/js/2.981e23b6.chunk.js.map": "/jid-ui/static/js/2.981e23b6.chunk.js.map",
+    "index.html": "/jid-ui/index.html",
+    "precache-manifest.271a55f601a58967df2073bf79f16691.js": "/jid-ui/precache-manifest.271a55f601a58967df2073bf79f16691.js",
+    "service-worker.js": "/jid-ui/service-worker.js",
+    "static/media/logo_50x50.png": "/jid-ui/static/media/logo_50x50.c2e75483.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17b7ecd6.js",
+    "static/js/2.981e23b6.chunk.js",
+    "static/js/main.ffeb8dc9.chunk.js"
+  ]
+}
