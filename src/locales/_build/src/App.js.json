@@ -1,0 +1,82 @@
+{
+  "Loading": {
+    "origin": [
+      [
+        "src/App.js",
+        98
+      ]
+    ]
+  },
+  "Total number of JID codes: {0}": {
+    "origin": [
+      [
+        "src/App.js",
+        104
+      ]
+    ]
+  },
+  "Unique JID codes: {0}": {
+    "origin": [
+      [
+        "src/App.js",
+        107
+      ]
+    ]
+  },
+  "Unique countries: {0}": {
+    "origin": [
+      [
+        "src/App.js",
+        110
+      ]
+    ]
+  },
+  "Scoreboard": {
+    "origin": [
+      [
+        "src/App.js",
+        134
+      ]
+    ]
+  },
+  "Name": {
+    "origin": [
+      [
+        "src/App.js",
+        138
+      ]
+    ]
+  },
+  "Countries": {
+    "origin": [
+      [
+        "src/App.js",
+        139
+      ],
+      [
+        "src/App.js",
+        159
+      ]
+    ]
+  },
+  "Unique codes": {
+    "origin": [
+      [
+        "src/App.js",
+        140
+      ],
+      [
+        "src/App.js",
+        164
+      ]
+    ]
+  },
+  "Country name": {
+    "origin": [
+      [
+        "src/App.js",
+        163
+      ]
+    ]
+  }
+}

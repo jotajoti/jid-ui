@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2019-10-20 14:12+0200\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/App.js:139
+#: src/App.js:159
+msgid "Countries"
+msgstr "Countries"
+
+#: src/App.js:163
+msgid "Country name"
+msgstr "Country name"
+
+#: src/App.js:98
+msgid "Loading"
+msgstr "Loading"
+
+#: src/App.js:138
+msgid "Name"
+msgstr "Name"
+
+#: src/App.js:134
+msgid "Scoreboard"
+msgstr "Scoreboard"
+
+#: src/App.js:104
+msgid "Total number of JID codes: {0}"
+msgstr "Total number of JID codes: {0}"
+
+#: src/App.js:107
+msgid "Unique JID codes: {0}"
+msgstr "Unique JID codes: {0}"
+
+#: src/App.js:140
+#: src/App.js:164
+msgid "Unique codes"
+msgstr "Unique codes"
+
+#: src/App.js:110
+msgid "Unique countries: {0}"
+msgstr "Unique countries: {0}"

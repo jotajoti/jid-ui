@@ -14,9 +14,12 @@ import {GeoJSON, Map} from "react-leaflet";
 import iso3to2 from 'country-iso-3-to-2';
 import geoJson from './geojson/countries.geo';
 import moment from 'moment';
-import logoImage from './logo.png';
+import {Trans} from "@lingui/macro";
+
+import logoImage from './logo_50x50.png';
 import countries from './countries';
-import {newCountryTime, serverUrl} from "./config";
+import {newCountryTime} from "./config";
+import mockResponse from './mockresponse';
 
 const styles = {
     root: {
@@ -63,8 +66,9 @@ export const App = withStyles(styles)(props => {
 
     useEffect(() => {
         const fetchStats = async () => {
-            const response = await fetch(serverUrl);
-            const body = await response.json();
+            //const response = await fetch(serverUrl);
+            //const body = await response.json();
+            const body = mockResponse;
             body.countryMap = body.countries.reduce((lookupMap, country) => {
                 lookupMap[country.country] = country;
                 return lookupMap;
@@ -82,7 +86,7 @@ export const App = withStyles(styles)(props => {
 
     return (
         <div className={classes.root}>
-            <AppBar position={'absolute'} className={classes.appBar} color="default">
+            <AppBar position={'fixed'} className={classes.appBar} color="default">
                 <Toolbar>
                     <img src={logoImage} height={50} alt="Jota/Joti 2019"/>
                     <Typography variant="h6" color="inherit" className={classes.title}>
@@ -91,20 +95,19 @@ export const App = withStyles(styles)(props => {
                 </Toolbar>
             </AppBar>
             <div className={classes.content}>
-                {loading ? (<div>Loading</div>) : (
+                {loading ? (<div><Trans>Loading</Trans></div>) : (
                     <Grid container spacing={2}>
                         <Grid item xs={12}>
                             <Paper className={classes.totals}>
                                 <Grid container alignItems="center" justify="space-around" direction="row">
                                     <Grid item>
-                                        <Typography variant="body2">Total antal JID
-                                            koder: {stats.totals.jids}</Typography>
+                                        <Typography variant="body2"><Trans>Total number of JID codes: {stats.totals.jids}</Trans></Typography>
                                     </Grid>
                                     <Grid item>
-                                        <Typography variant="body2">Unikke JID koder: {stats.totals.unique}</Typography>
+                                        <Typography variant="body2"><Trans>Unique JID codes: {stats.totals.unique}</Trans></Typography>
                                     </Grid>
                                     <Grid item>
-                                        <Typography variant="body2">Unikke lande: {stats.totals.countries}</Typography>
+                                        <Typography variant="body2"><Trans>Unique countries: {stats.totals.countries}</Trans></Typography>
                                     </Grid>
                                 </Grid>
                             </Paper>
@@ -128,13 +131,13 @@ export const App = withStyles(styles)(props => {
                         </Grid>
                         <Grid item xs={6}>
                             <Paper className={classes.box}>
-                                <Typography variant="h6" className={classes.boxHeader}>Stillinger</Typography>
+                                <Typography variant="h6" className={classes.boxHeader}><Trans>Scoreboard</Trans></Typography>
                                 <Table size="small">
                                     <TableHead>
                                         <TableRow>
-                                            <TableCell>Navn</TableCell>
-                                            <TableCell align="right">Lande</TableCell>
-                                            <TableCell align="right">Unikke koder</TableCell>
+                                            <TableCell><Trans>Name</Trans></TableCell>
+                                            <TableCell align="right"><Trans>Countries</Trans></TableCell>
+                                            <TableCell align="right"><Trans>Unique codes</Trans></TableCell>
                                         </TableRow>
                                     </TableHead>
                                     <TableBody>
@@ -153,12 +156,12 @@ export const App = withStyles(styles)(props => {
                         </Grid>
                         <Grid item xs={6}>
                             <Paper className={classes.box}>
-                                <Typography variant="h6" className={classes.boxHeader}>Lande</Typography>
+                                <Typography variant="h6" className={classes.boxHeader}><Trans>Countries</Trans></Typography>
                                 <Table size="small">
                                     <TableHead>
                                         <TableRow>
-                                            <TableCell>Landenavn</TableCell>
-                                            <TableCell align="right">Unikke koder</TableCell>
+                                            <TableCell><Trans>Country name</Trans></TableCell>
+                                            <TableCell align="right"><Trans>Unique codes</Trans></TableCell>
                                         </TableRow>
                                     </TableHead>
                                     <TableBody>
@@ -166,7 +169,8 @@ export const App = withStyles(styles)(props => {
                                             const firstCreated = moment(country.created);
                                             const newlyCreated = newCountryIndicator.isBefore(firstCreated);
                                             return (
-                                                <TableRow key={country.country} className={newlyCreated ? classes.new : ''}>
+                                                <TableRow key={country.country}
+                                                          className={newlyCreated ? classes.new : ''}>
                                                     <TableCell component="th" scope="row">
                                                         {countryMap[country.country.toUpperCase()] ? countryMap[country.country.toUpperCase()] : country.country}
                                                     </TableCell>
