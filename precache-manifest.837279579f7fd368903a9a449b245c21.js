@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4dceee9b76e06c37779ed9046233d79",
+    "revision": "a19ddca89d7a0fb5909c155e1bfd74e8",
     "url": "/jid-ui/index.html"
   },
   {
