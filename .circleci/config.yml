@@ -40,5 +40,7 @@ jobs:
           name: Deploy to GitHub Pages if branch is master
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              git config user.email "jid-ui-ci@frankbille.dk"
+              git config user.name "Circle CI build"
               yarn deploy
             fi
