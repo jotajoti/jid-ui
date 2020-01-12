@@ -48,6 +48,8 @@ jobs:
             - ~/.cache/yarn
 
       - run: yarn build
+      
+      - run: bash <(curl -s https://codecov.io/bash)
 
       # Deploy
       - run:
