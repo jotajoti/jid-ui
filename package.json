@@ -4,16 +4,16 @@
   "private": true,
   "homepage": "http://jotajoti.github.io/jid-ui",
   "dependencies": {
-    "@lingui/react": "^2.8.3",
-    "@material-ui/core": "^4.5.1",
-    "country-iso-2-to-3": "^1.0.1",
-    "country-iso-3-to-2": "^1.0.1",
-    "leaflet": "^1.5.1",
-    "moment": "^2.24.0",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-leaflet": "^2.5.0",
-    "react-scripts": "3.2.0"
+    "@lingui/react": "^2.9.1",
+    "@material-ui/core": "^4.9.14",
+    "country-iso-2-to-3": "^1.1.0",
+    "country-iso-3-to-2": "^1.1.0",
+    "leaflet": "^1.6.0",
+    "moment": "^2.25.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-leaflet": "^2.7.0",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,10 +43,10 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@lingui/cli": "^2.8.3",
-    "@lingui/macro": "^2.8.3",
+    "@babel/core": "^7.9.6",
+    "@lingui/cli": "^2.9.1",
+    "@lingui/macro": "^2.9.1",
     "babel-core": "^7.0.0-bridge.0",
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.2.0"
   }
 }
