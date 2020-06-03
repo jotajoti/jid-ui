@@ -1,0 +1,50 @@
+{
+  "Create user": {
+    "origin": [
+      [
+        "src/CreateUserModal.js",
+        29
+      ],
+      [
+        "src/CreateUserModal.js",
+        70
+      ],
+      [
+        "src/CreateUserModal.js",
+        81
+      ]
+    ]
+  },
+  "Name": {
+    "origin": [
+      [
+        "src/CreateUserModal.js",
+        37
+      ]
+    ]
+  },
+  "Username": {
+    "origin": [
+      [
+        "src/CreateUserModal.js",
+        46
+      ]
+    ]
+  },
+  "Password": {
+    "origin": [
+      [
+        "src/CreateUserModal.js",
+        55
+      ]
+    ]
+  },
+  "Cancel": {
+    "origin": [
+      [
+        "src/CreateUserModal.js",
+        67
+      ]
+    ]
+  }
+}

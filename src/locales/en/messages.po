@@ -13,40 +13,80 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/App.js:139
-#: src/App.js:159
+#: src/CreateUserModal.js:67
+#: src/LoginModal.js:56
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/App.js:145
+#: src/App.js:166
 msgid "Countries"
 msgstr "Countries"
 
-#: src/App.js:163
+#: src/App.js:170
 msgid "Country name"
 msgstr "Country name"
 
-#: src/App.js:98
+#: src/CreateUserModal.js:29
+#: src/CreateUserModal.js:70
+#: src/CreateUserModal.js:81
+msgid "Create user"
+msgstr "Create user"
+
+#: src/LoginModal.js:48
+msgid "If you do not have a user yet, click here:"
+msgstr "If you do not have a user yet, click here:"
+
+#: src/App.js:100
 msgid "Loading"
 msgstr "Loading"
 
-#: src/App.js:138
+#: src/LoginModal.js:19
+#: src/LoginModal.js:59
+#: src/LoginModal.js:70
+msgid "Login"
+msgstr "Login"
+
+#: src/LoginModal.js:24
+msgid "Login to submit JID codes."
+msgstr "Login to submit JID codes."
+
+#: src/UserButton.js:29
+msgid "Logout"
+msgstr "Logout"
+
+#: src/App.js:144
+#: src/CreateUserModal.js:37
 msgid "Name"
 msgstr "Name"
 
-#: src/App.js:134
+#: src/CreateUserModal.js:55
+#: src/LoginModal.js:39
+msgid "Password"
+msgstr "Password"
+
+#: src/App.js:140
 msgid "Scoreboard"
 msgstr "Scoreboard"
 
-#: src/App.js:104
+#: src/App.js:106
 msgid "Total number of JID codes: {0}"
 msgstr "Total number of JID codes: {0}"
 
-#: src/App.js:107
+#: src/App.js:110
 msgid "Unique JID codes: {0}"
 msgstr "Unique JID codes: {0}"
 
-#: src/App.js:140
-#: src/App.js:164
+#: src/App.js:146
+#: src/App.js:171
 msgid "Unique codes"
 msgstr "Unique codes"
 
-#: src/App.js:110
+#: src/App.js:114
 msgid "Unique countries: {0}"
 msgstr "Unique countries: {0}"
+
+#: src/CreateUserModal.js:46
+#: src/LoginModal.js:30
+msgid "Username"
+msgstr "Username"

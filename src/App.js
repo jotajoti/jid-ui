@@ -18,8 +18,8 @@ import {Trans} from "@lingui/macro";
 
 import logoImage from './logo_50x50.png';
 import countries from './countries';
-import {newCountryTime} from "./config";
-import mockResponse from './mockresponse';
+import {api, newCountryTime} from "./config";
+import {UserButton} from "./UserButton";
 
 const styles = {
     root: {
@@ -66,14 +66,12 @@ export const App = withStyles(styles)(props => {
 
     useEffect(() => {
         const fetchStats = async () => {
-            //const response = await fetch(serverUrl);
-            //const body = await response.json();
-            const body = mockResponse;
-            body.countryMap = body.countries.reduce((lookupMap, country) => {
+            const stats = await api.getStats();
+            stats.countryMap = stats.countries.reduce((lookupMap, country) => {
                 lookupMap[country.country] = country;
                 return lookupMap;
             }, {});
-            setStats(body);
+            setStats(stats);
             setLoading(false);
         };
         fetchStats().then(() => {
@@ -92,6 +90,7 @@ export const App = withStyles(styles)(props => {
                     <Typography variant="h6" color="inherit" className={classes.title}>
                         Jota/Joti 2019
                     </Typography>
+                    <UserButton/>
                 </Toolbar>
             </AppBar>
             <div className={classes.content}>
@@ -101,13 +100,16 @@ export const App = withStyles(styles)(props => {
                             <Paper className={classes.totals}>
                                 <Grid container alignItems="center" justify="space-around" direction="row">
                                     <Grid item>
-                                        <Typography variant="body2"><Trans>Total number of JID codes: {stats.totals.jids}</Trans></Typography>
+                                        <Typography variant="body2"><Trans>Total number of JID
+                                            codes: {stats.totals.jids}</Trans></Typography>
                                     </Grid>
                                     <Grid item>
-                                        <Typography variant="body2"><Trans>Unique JID codes: {stats.totals.unique}</Trans></Typography>
+                                        <Typography variant="body2"><Trans>Unique JID
+                                            codes: {stats.totals.unique}</Trans></Typography>
                                     </Grid>
                                     <Grid item>
-                                        <Typography variant="body2"><Trans>Unique countries: {stats.totals.countries}</Trans></Typography>
+                                        <Typography variant="body2"><Trans>Unique
+                                            countries: {stats.totals.countries}</Trans></Typography>
                                     </Grid>
                                 </Grid>
                             </Paper>
@@ -131,7 +133,8 @@ export const App = withStyles(styles)(props => {
                         </Grid>
                         <Grid item xs={6}>
                             <Paper className={classes.box}>
-                                <Typography variant="h6" className={classes.boxHeader}><Trans>Scoreboard</Trans></Typography>
+                                <Typography variant="h6"
+                                            className={classes.boxHeader}><Trans>Scoreboard</Trans></Typography>
                                 <Table size="small">
                                     <TableHead>
                                         <TableRow>
@@ -141,8 +144,8 @@ export const App = withStyles(styles)(props => {
                                         </TableRow>
                                     </TableHead>
                                     <TableBody>
-                                        {stats.users.map(user => (
-                                            <TableRow key={user.name}>
+                                        {stats.users.map((user, index) => (
+                                            <TableRow key={`${user.name}-${index}`}>
                                                 <TableCell component="th" scope="row">
                                                     {user.name}
                                                 </TableCell>
@@ -156,7 +159,8 @@ export const App = withStyles(styles)(props => {
                         </Grid>
                         <Grid item xs={6}>
                             <Paper className={classes.box}>
-                                <Typography variant="h6" className={classes.boxHeader}><Trans>Countries</Trans></Typography>
+                                <Typography variant="h6"
+                                            className={classes.boxHeader}><Trans>Countries</Trans></Typography>
                                 <Table size="small">
                                     <TableHead>
                                         <TableRow>

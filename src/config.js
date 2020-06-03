@@ -1,2 +1,4 @@
-export const serverUrl = 'http://192.168.1.236:4000/stats';
+import {Api} from "./api";
+
+export const api = new Api('http://localhost:4000');
 export const newCountryTime = 30; // minutes old
