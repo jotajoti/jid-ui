@@ -8,7 +8,7 @@ msgstr ""
 "Language: sv\n"
 "Project-Id-Version: jid-ui\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-18 21:07\n"
+"PO-Revision-Date: 2020-06-03 20:59\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -16,41 +16,81 @@ msgstr ""
 "X-Crowdin-Language: sv-SE\n"
 "X-Crowdin-File: /master/src/locales/en/messages.po\n"
 
-#: src/App.js:139
-#: src/App.js:159
+#: src/CreateUserModal.js:67
+#: src/LoginModal.js:56
+msgid "Cancel"
+msgstr ""
+
+#: src/App.js:145
+#: src/App.js:166
 msgid "Countries"
 msgstr "Länder"
 
-#: src/App.js:163
+#: src/App.js:170
 msgid "Country name"
 msgstr "Landsnamn"
 
-#: src/App.js:98
+#: src/CreateUserModal.js:29
+#: src/CreateUserModal.js:70
+#: src/CreateUserModal.js:81
+msgid "Create user"
+msgstr ""
+
+#: src/LoginModal.js:48
+msgid "If you do not have a user yet, click here:"
+msgstr ""
+
+#: src/App.js:100
 msgid "Loading"
 msgstr "Laddar"
 
-#: src/App.js:138
+#: src/LoginModal.js:19
+#: src/LoginModal.js:59
+#: src/LoginModal.js:70
+msgid "Login"
+msgstr ""
+
+#: src/LoginModal.js:24
+msgid "Login to submit JID codes."
+msgstr ""
+
+#: src/UserButton.js:29
+msgid "Logout"
+msgstr ""
+
+#: src/App.js:144
+#: src/CreateUserModal.js:37
 msgid "Name"
 msgstr "Namn"
 
-#: src/App.js:134
+#: src/CreateUserModal.js:55
+#: src/LoginModal.js:39
+msgid "Password"
+msgstr ""
+
+#: src/App.js:140
 msgid "Scoreboard"
 msgstr "Resultattavla"
 
-#: src/App.js:104
+#: src/App.js:106
 msgid "Total number of JID codes: {0}"
 msgstr "Totalt antal JID koder: {0}"
 
-#: src/App.js:107
+#: src/App.js:110
 msgid "Unique JID codes: {0}"
 msgstr "Unika JID-koder: {0}"
 
-#: src/App.js:140
-#: src/App.js:164
+#: src/App.js:146
+#: src/App.js:171
 msgid "Unique codes"
 msgstr "Unika koder"
 
-#: src/App.js:110
+#: src/App.js:114
 msgid "Unique countries: {0}"
 msgstr "Unika länder: {0}"
+
+#: src/CreateUserModal.js:46
+#: src/LoginModal.js:30
+msgid "Username"
+msgstr ""
 
