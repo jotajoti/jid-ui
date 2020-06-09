@@ -2,10 +2,12 @@ import React, {useState} from "react";
 import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
+import AccountCircle from '@material-ui/icons/AccountCircle';
 import {Trans} from "@lingui/macro";
 import jwtDecode from 'jwt-decode';
 import {LoginButton} from "./LoginModal";
 import {addListener, EVENT_TYPE} from "./eventManager";
+import {AddJidCodeButton} from "./AddJidCode";
 
 export const UserButton = () => {
     const [anchorEl, setAnchorEl] = useState(null);
@@ -51,8 +53,15 @@ export const UserButton = () => {
         </Menu>
     );
 
+    const loggedInButtons = <>
+        <AddJidCodeButton/>
+        <Button color="inherit" onClick={handleUserButtonClick} startIcon={<AccountCircle/>}>
+            {user.name}
+        </Button>
+    </>;
+
     return <>
-        {user ? <Button color="inherit" onClick={handleUserButtonClick}>{user.name}</Button> : <LoginButton/>}
+        {user ? loggedInButtons : <LoginButton/>}
         {profileMenu}
     </>;
 };

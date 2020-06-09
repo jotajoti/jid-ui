@@ -1,0 +1,2343 @@
+{
+  "Africa Scout Region": {
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        20
+      ]
+    ]
+  },
+  "Arab Scout Region": {
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        22
+      ]
+    ]
+  },
+  "Asia-Pacific Scout Region": {
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        24
+      ]
+    ]
+  },
+  "Eurasia Scout Region": {
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        26
+      ]
+    ]
+  },
+  "European Scout Region": {
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        28
+      ]
+    ]
+  },
+  "Interamerican Scout Region": {
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        30
+      ]
+    ]
+  },
+  "AF": {
+    "defaults": "Afghanistan",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        39
+      ]
+    ]
+  },
+  "AX": {
+    "defaults": "\\u00c5land Islands",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        41
+      ]
+    ]
+  },
+  "AL": {
+    "defaults": "Albania",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        43
+      ]
+    ]
+  },
+  "DZ": {
+    "defaults": "Algeria",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        45
+      ]
+    ]
+  },
+  "AS": {
+    "defaults": "American Samoa",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        47
+      ]
+    ]
+  },
+  "AD": {
+    "defaults": "Andorra",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        49
+      ]
+    ]
+  },
+  "AO": {
+    "defaults": "Angola",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        51
+      ]
+    ]
+  },
+  "AI": {
+    "defaults": "Anguilla",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        53
+      ]
+    ]
+  },
+  "AQ": {
+    "defaults": "Antarctica",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        55
+      ]
+    ]
+  },
+  "AG": {
+    "defaults": "Antigua and Barbuda",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        57
+      ]
+    ]
+  },
+  "AR": {
+    "defaults": "Argentina",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        59
+      ]
+    ]
+  },
+  "AM": {
+    "defaults": "Armenia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        61
+      ]
+    ]
+  },
+  "AW": {
+    "defaults": "Aruba",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        63
+      ]
+    ]
+  },
+  "AU": {
+    "defaults": "Australia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        65
+      ]
+    ]
+  },
+  "AT": {
+    "defaults": "Austria",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        67
+      ]
+    ]
+  },
+  "AZ": {
+    "defaults": "Azerbaijan",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        69
+      ]
+    ]
+  },
+  "BS": {
+    "defaults": "Bahamas",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        71
+      ]
+    ]
+  },
+  "BH": {
+    "defaults": "Bahrain",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        73
+      ]
+    ]
+  },
+  "BD": {
+    "defaults": "Bangladesh",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        75
+      ]
+    ]
+  },
+  "BB": {
+    "defaults": "Barbados",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        77
+      ]
+    ]
+  },
+  "BY": {
+    "defaults": "Belarus",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        79
+      ]
+    ]
+  },
+  "BE": {
+    "defaults": "Belgium",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        81
+      ]
+    ]
+  },
+  "BZ": {
+    "defaults": "Belize",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        83
+      ]
+    ]
+  },
+  "BJ": {
+    "defaults": "Benin",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        85
+      ]
+    ]
+  },
+  "BM": {
+    "defaults": "Bermuda",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        87
+      ]
+    ]
+  },
+  "BT": {
+    "defaults": "Bhutan",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        89
+      ]
+    ]
+  },
+  "BO": {
+    "defaults": "Bolivia, Plurinational State of",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        91
+      ]
+    ]
+  },
+  "BQ": {
+    "defaults": "Bonaire, Sint Eustatius and Saba",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        93
+      ]
+    ]
+  },
+  "BA": {
+    "defaults": "Bosnia and Herzegovina",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        95
+      ]
+    ]
+  },
+  "BW": {
+    "defaults": "Botswana",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        97
+      ]
+    ]
+  },
+  "BV": {
+    "defaults": "Bouvet Island",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        99
+      ]
+    ]
+  },
+  "BR": {
+    "defaults": "Brazil",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        101
+      ]
+    ]
+  },
+  "IO": {
+    "defaults": "British Indian Ocean Territory",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        103
+      ]
+    ]
+  },
+  "BN": {
+    "defaults": "Brunei Darussalam",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        105
+      ]
+    ]
+  },
+  "BG": {
+    "defaults": "Bulgaria",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        107
+      ]
+    ]
+  },
+  "BF": {
+    "defaults": "Burkina Faso",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        109
+      ]
+    ]
+  },
+  "BI": {
+    "defaults": "Burundi",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        111
+      ]
+    ]
+  },
+  "KH": {
+    "defaults": "Cambodia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        113
+      ]
+    ]
+  },
+  "CM": {
+    "defaults": "Cameroon",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        115
+      ]
+    ]
+  },
+  "CA": {
+    "defaults": "Canada",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        117
+      ]
+    ]
+  },
+  "CV": {
+    "defaults": "Cape Verde",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        119
+      ]
+    ]
+  },
+  "KY": {
+    "defaults": "Cayman Islands",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        121
+      ]
+    ]
+  },
+  "CF": {
+    "defaults": "Central African Republic",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        123
+      ]
+    ]
+  },
+  "TD": {
+    "defaults": "Chad",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        125
+      ]
+    ]
+  },
+  "CL": {
+    "defaults": "Chile",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        127
+      ]
+    ]
+  },
+  "CN": {
+    "defaults": "China",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        129
+      ]
+    ]
+  },
+  "CX": {
+    "defaults": "Christmas Island",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        131
+      ]
+    ]
+  },
+  "CC": {
+    "defaults": "Cocos (Keeling) Islands",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        133
+      ]
+    ]
+  },
+  "CO": {
+    "defaults": "Colombia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        135
+      ]
+    ]
+  },
+  "KM": {
+    "defaults": "Comoros",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        137
+      ]
+    ]
+  },
+  "CG": {
+    "defaults": "Congo",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        139
+      ]
+    ]
+  },
+  "CD": {
+    "defaults": "Congo, the Democratic Republic of the",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        141
+      ]
+    ]
+  },
+  "CK": {
+    "defaults": "Cook Islands",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        143
+      ]
+    ]
+  },
+  "CR": {
+    "defaults": "Costa Rica",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        145
+      ]
+    ]
+  },
+  "CI": {
+    "defaults": "C\\u00f4te d'Ivoire",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        147
+      ]
+    ]
+  },
+  "HR": {
+    "defaults": "Croatia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        149
+      ]
+    ]
+  },
+  "CU": {
+    "defaults": "Cuba",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        151
+      ]
+    ]
+  },
+  "CW": {
+    "defaults": "Cura\\u00e7ao",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        153
+      ]
+    ]
+  },
+  "CY": {
+    "defaults": "Cyprus",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        155
+      ]
+    ]
+  },
+  "CZ": {
+    "defaults": "Czech Republic",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        157
+      ]
+    ]
+  },
+  "DK": {
+    "defaults": "Denmark",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        159
+      ]
+    ]
+  },
+  "DJ": {
+    "defaults": "Djibouti",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        161
+      ]
+    ]
+  },
+  "DM": {
+    "defaults": "Dominica",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        163
+      ]
+    ]
+  },
+  "DO": {
+    "defaults": "Dominican Republic",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        165
+      ]
+    ]
+  },
+  "EC": {
+    "defaults": "Ecuador",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        167
+      ]
+    ]
+  },
+  "EG": {
+    "defaults": "Egypt",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        169
+      ]
+    ]
+  },
+  "SV": {
+    "defaults": "El Salvador",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        171
+      ]
+    ]
+  },
+  "GQ": {
+    "defaults": "Equatorial Guinea",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        173
+      ]
+    ]
+  },
+  "ER": {
+    "defaults": "Eritrea",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        175
+      ]
+    ]
+  },
+  "EE": {
+    "defaults": "Estonia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        177
+      ]
+    ]
+  },
+  "ET": {
+    "defaults": "Ethiopia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        179
+      ]
+    ]
+  },
+  "FK": {
+    "defaults": "Falkland Islands (Malvinas)",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        181
+      ]
+    ]
+  },
+  "FO": {
+    "defaults": "Faroe Islands",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        183
+      ]
+    ]
+  },
+  "FJ": {
+    "defaults": "Fiji",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        185
+      ]
+    ]
+  },
+  "FI": {
+    "defaults": "Finland",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        187
+      ]
+    ]
+  },
+  "FR": {
+    "defaults": "France",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        189
+      ]
+    ]
+  },
+  "GF": {
+    "defaults": "French Guiana",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        191
+      ]
+    ]
+  },
+  "PF": {
+    "defaults": "French Polynesia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        193
+      ]
+    ]
+  },
+  "TF": {
+    "defaults": "French Southern Territories",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        195
+      ]
+    ]
+  },
+  "GA": {
+    "defaults": "Gabon",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        197
+      ]
+    ]
+  },
+  "GM": {
+    "defaults": "Gambia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        199
+      ]
+    ]
+  },
+  "GE": {
+    "defaults": "Georgia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        201
+      ]
+    ]
+  },
+  "DE": {
+    "defaults": "Germany",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        203
+      ]
+    ]
+  },
+  "GH": {
+    "defaults": "Ghana",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        205
+      ]
+    ]
+  },
+  "GI": {
+    "defaults": "Gibraltar",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        207
+      ]
+    ]
+  },
+  "GR": {
+    "defaults": "Greece",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        209
+      ]
+    ]
+  },
+  "GL": {
+    "defaults": "Greenland",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        211
+      ]
+    ]
+  },
+  "GD": {
+    "defaults": "Grenada",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        213
+      ]
+    ]
+  },
+  "GP": {
+    "defaults": "Guadeloupe",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        215
+      ]
+    ]
+  },
+  "GU": {
+    "defaults": "Guam",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        217
+      ]
+    ]
+  },
+  "GT": {
+    "defaults": "Guatemala",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        219
+      ]
+    ]
+  },
+  "GG": {
+    "defaults": "Guernsey",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        221
+      ]
+    ]
+  },
+  "GN": {
+    "defaults": "Guinea",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        223
+      ]
+    ]
+  },
+  "GW": {
+    "defaults": "Guinea-Bissau",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        225
+      ]
+    ]
+  },
+  "GY": {
+    "defaults": "Guyana",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        227
+      ]
+    ]
+  },
+  "HT": {
+    "defaults": "Haiti",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        229
+      ]
+    ]
+  },
+  "HM": {
+    "defaults": "Heard Island and McDonald Islands",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        231
+      ]
+    ]
+  },
+  "VA": {
+    "defaults": "Holy See (Vatican City State)",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        233
+      ]
+    ]
+  },
+  "HN": {
+    "defaults": "Honduras",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        235
+      ]
+    ]
+  },
+  "HK": {
+    "defaults": "Hong Kong",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        237
+      ]
+    ]
+  },
+  "HU": {
+    "defaults": "Hungary",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        239
+      ]
+    ]
+  },
+  "IS": {
+    "defaults": "Iceland",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        241
+      ]
+    ]
+  },
+  "IN": {
+    "defaults": "India",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        243
+      ]
+    ]
+  },
+  "ID": {
+    "defaults": "Indonesia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        245
+      ]
+    ]
+  },
+  "IR": {
+    "defaults": "Iran, Islamic Republic of",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        247
+      ]
+    ]
+  },
+  "IQ": {
+    "defaults": "Iraq",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        249
+      ]
+    ]
+  },
+  "IE": {
+    "defaults": "Ireland",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        251
+      ]
+    ]
+  },
+  "IM": {
+    "defaults": "Isle of Man",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        253
+      ]
+    ]
+  },
+  "IL": {
+    "defaults": "Israel",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        255
+      ]
+    ]
+  },
+  "IT": {
+    "defaults": "Italy",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        257
+      ]
+    ]
+  },
+  "JM": {
+    "defaults": "Jamaica",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        259
+      ]
+    ]
+  },
+  "JP": {
+    "defaults": "Japan",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        261
+      ]
+    ]
+  },
+  "JE": {
+    "defaults": "Jersey",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        263
+      ]
+    ]
+  },
+  "JO": {
+    "defaults": "Jordan",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        265
+      ]
+    ]
+  },
+  "KZ": {
+    "defaults": "Kazakhstan",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        267
+      ]
+    ]
+  },
+  "KE": {
+    "defaults": "Kenya",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        269
+      ]
+    ]
+  },
+  "KI": {
+    "defaults": "Kiribati",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        271
+      ]
+    ]
+  },
+  "KP": {
+    "defaults": "Korea, Democratic People's Republic of",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        273
+      ]
+    ]
+  },
+  "KR": {
+    "defaults": "Korea, Republic of",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        275
+      ]
+    ]
+  },
+  "KW": {
+    "defaults": "Kuwait",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        277
+      ]
+    ]
+  },
+  "KG": {
+    "defaults": "Kyrgyzstan",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        279
+      ]
+    ]
+  },
+  "LA": {
+    "defaults": "Lao People's Democratic Republic",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        281
+      ]
+    ]
+  },
+  "LV": {
+    "defaults": "Latvia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        283
+      ]
+    ]
+  },
+  "LB": {
+    "defaults": "Lebanon",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        285
+      ]
+    ]
+  },
+  "LS": {
+    "defaults": "Lesotho",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        287
+      ]
+    ]
+  },
+  "LR": {
+    "defaults": "Liberia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        289
+      ]
+    ]
+  },
+  "LY": {
+    "defaults": "Libya",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        291
+      ]
+    ]
+  },
+  "LI": {
+    "defaults": "Liechtenstein",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        293
+      ]
+    ]
+  },
+  "LT": {
+    "defaults": "Lithuania",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        295
+      ]
+    ]
+  },
+  "LU": {
+    "defaults": "Luxembourg",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        297
+      ]
+    ]
+  },
+  "MO": {
+    "defaults": "Macao",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        299
+      ]
+    ]
+  },
+  "MK": {
+    "defaults": "Macedonia, the Former Yugoslav Republic of",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        301
+      ]
+    ]
+  },
+  "MG": {
+    "defaults": "Madagascar",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        303
+      ]
+    ]
+  },
+  "MW": {
+    "defaults": "Malawi",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        305
+      ]
+    ]
+  },
+  "MY": {
+    "defaults": "Malaysia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        307
+      ]
+    ]
+  },
+  "MV": {
+    "defaults": "Maldives",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        309
+      ]
+    ]
+  },
+  "ML": {
+    "defaults": "Mali",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        311
+      ]
+    ]
+  },
+  "MT": {
+    "defaults": "Malta",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        313
+      ]
+    ]
+  },
+  "MH": {
+    "defaults": "Marshall Islands",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        315
+      ]
+    ]
+  },
+  "MQ": {
+    "defaults": "Martinique",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        317
+      ]
+    ]
+  },
+  "MR": {
+    "defaults": "Mauritania",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        319
+      ]
+    ]
+  },
+  "MU": {
+    "defaults": "Mauritius",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        321
+      ]
+    ]
+  },
+  "YT": {
+    "defaults": "Mayotte",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        323
+      ]
+    ]
+  },
+  "MX": {
+    "defaults": "Mexico",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        325
+      ]
+    ]
+  },
+  "FM": {
+    "defaults": "Micronesia, Federated States of",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        327
+      ]
+    ]
+  },
+  "MD": {
+    "defaults": "Moldova, Republic of",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        329
+      ]
+    ]
+  },
+  "MC": {
+    "defaults": "Monaco",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        331
+      ]
+    ]
+  },
+  "MN": {
+    "defaults": "Mongolia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        333
+      ]
+    ]
+  },
+  "ME": {
+    "defaults": "Montenegro",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        335
+      ]
+    ]
+  },
+  "MS": {
+    "defaults": "Montserrat",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        337
+      ]
+    ]
+  },
+  "MA": {
+    "defaults": "Morocco",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        339
+      ]
+    ]
+  },
+  "MZ": {
+    "defaults": "Mozambique",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        341
+      ]
+    ]
+  },
+  "MM": {
+    "defaults": "Myanmar",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        343
+      ]
+    ]
+  },
+  "NA": {
+    "defaults": "Namibia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        345
+      ]
+    ]
+  },
+  "NR": {
+    "defaults": "Nauru",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        347
+      ]
+    ]
+  },
+  "NP": {
+    "defaults": "Nepal",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        349
+      ]
+    ]
+  },
+  "NL": {
+    "defaults": "Netherlands",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        351
+      ]
+    ]
+  },
+  "NC": {
+    "defaults": "New Caledonia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        353
+      ]
+    ]
+  },
+  "NZ": {
+    "defaults": "New Zealand",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        355
+      ]
+    ]
+  },
+  "NI": {
+    "defaults": "Nicaragua",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        357
+      ]
+    ]
+  },
+  "NE": {
+    "defaults": "Niger",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        359
+      ]
+    ]
+  },
+  "NG": {
+    "defaults": "Nigeria",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        361
+      ]
+    ]
+  },
+  "NU": {
+    "defaults": "Niue",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        363
+      ]
+    ]
+  },
+  "NF": {
+    "defaults": "Norfolk Island",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        365
+      ]
+    ]
+  },
+  "MP": {
+    "defaults": "Northern Mariana Islands",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        367
+      ]
+    ]
+  },
+  "NO": {
+    "defaults": "Norway",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        369
+      ]
+    ]
+  },
+  "OM": {
+    "defaults": "Oman",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        371
+      ]
+    ]
+  },
+  "PK": {
+    "defaults": "Pakistan",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        373
+      ]
+    ]
+  },
+  "PW": {
+    "defaults": "Palau",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        375
+      ]
+    ]
+  },
+  "PS": {
+    "defaults": "Palestine, State of",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        377
+      ]
+    ]
+  },
+  "PA": {
+    "defaults": "Panama",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        379
+      ]
+    ]
+  },
+  "PG": {
+    "defaults": "Papua New Guinea",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        381
+      ]
+    ]
+  },
+  "PY": {
+    "defaults": "Paraguay",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        383
+      ]
+    ]
+  },
+  "PE": {
+    "defaults": "Peru",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        385
+      ]
+    ]
+  },
+  "PH": {
+    "defaults": "Philippines",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        387
+      ]
+    ]
+  },
+  "PN": {
+    "defaults": "Pitcairn",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        389
+      ]
+    ]
+  },
+  "PL": {
+    "defaults": "Poland",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        391
+      ]
+    ]
+  },
+  "PT": {
+    "defaults": "Portugal",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        393
+      ]
+    ]
+  },
+  "PR": {
+    "defaults": "Puerto Rico",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        395
+      ]
+    ]
+  },
+  "QA": {
+    "defaults": "Qatar",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        397
+      ]
+    ]
+  },
+  "RE": {
+    "defaults": "R\\u00e9union",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        399
+      ]
+    ]
+  },
+  "RO": {
+    "defaults": "Romania",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        401
+      ]
+    ]
+  },
+  "RU": {
+    "defaults": "Russian Federation",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        403
+      ]
+    ]
+  },
+  "RW": {
+    "defaults": "Rwanda",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        405
+      ]
+    ]
+  },
+  "BL": {
+    "defaults": "Saint Barth\\u00e9lemy",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        407
+      ]
+    ]
+  },
+  "SH": {
+    "defaults": "Saint Helena, Ascension and Tristan da Cunha",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        409
+      ]
+    ]
+  },
+  "KN": {
+    "defaults": "Saint Kitts and Nevis",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        411
+      ]
+    ]
+  },
+  "LC": {
+    "defaults": "Saint Lucia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        413
+      ]
+    ]
+  },
+  "MF": {
+    "defaults": "Saint Martin (French part)",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        415
+      ]
+    ]
+  },
+  "PM": {
+    "defaults": "Saint Pierre and Miquelon",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        417
+      ]
+    ]
+  },
+  "VC": {
+    "defaults": "Saint Vincent and the Grenadines",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        419
+      ]
+    ]
+  },
+  "WS": {
+    "defaults": "Samoa",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        421
+      ]
+    ]
+  },
+  "SM": {
+    "defaults": "San Marino",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        423
+      ]
+    ]
+  },
+  "ST": {
+    "defaults": "Sao Tome and Principe",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        425
+      ]
+    ]
+  },
+  "SA": {
+    "defaults": "Saudi Arabia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        427
+      ]
+    ]
+  },
+  "SN": {
+    "defaults": "Senegal",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        429
+      ]
+    ]
+  },
+  "RS": {
+    "defaults": "Serbia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        431
+      ]
+    ]
+  },
+  "SC": {
+    "defaults": "Seychelles",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        433
+      ]
+    ]
+  },
+  "SL": {
+    "defaults": "Sierra Leone",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        435
+      ]
+    ]
+  },
+  "SG": {
+    "defaults": "Singapore",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        437
+      ]
+    ]
+  },
+  "SX": {
+    "defaults": "Sint Maarten (Dutch part)",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        439
+      ]
+    ]
+  },
+  "SK": {
+    "defaults": "Slovakia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        441
+      ]
+    ]
+  },
+  "SI": {
+    "defaults": "Slovenia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        443
+      ]
+    ]
+  },
+  "SB": {
+    "defaults": "Solomon Islands",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        445
+      ]
+    ]
+  },
+  "SO": {
+    "defaults": "Somalia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        447
+      ]
+    ]
+  },
+  "ZA": {
+    "defaults": "South Africa",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        449
+      ]
+    ]
+  },
+  "GS": {
+    "defaults": "South Georgia and the South Sandwich Islands",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        451
+      ]
+    ]
+  },
+  "SS": {
+    "defaults": "South Sudan",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        453
+      ]
+    ]
+  },
+  "ES": {
+    "defaults": "Spain",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        455
+      ]
+    ]
+  },
+  "LK": {
+    "defaults": "Sri Lanka",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        457
+      ]
+    ]
+  },
+  "SD": {
+    "defaults": "Sudan",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        459
+      ]
+    ]
+  },
+  "SR": {
+    "defaults": "Suriname",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        461
+      ]
+    ]
+  },
+  "SJ": {
+    "defaults": "Svalbard and Jan Mayen",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        463
+      ]
+    ]
+  },
+  "SZ": {
+    "defaults": "Swaziland",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        465
+      ]
+    ]
+  },
+  "SE": {
+    "defaults": "Sweden",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        467
+      ]
+    ]
+  },
+  "CH": {
+    "defaults": "Switzerland",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        469
+      ]
+    ]
+  },
+  "SY": {
+    "defaults": "Syrian Arab Republic",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        471
+      ]
+    ]
+  },
+  "TW": {
+    "defaults": "Taiwan, Province of China",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        473
+      ]
+    ]
+  },
+  "TJ": {
+    "defaults": "Tajikistan",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        475
+      ]
+    ]
+  },
+  "TZ": {
+    "defaults": "Tanzania, United Republic of",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        477
+      ]
+    ]
+  },
+  "TH": {
+    "defaults": "Thailand",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        479
+      ]
+    ]
+  },
+  "TL": {
+    "defaults": "Timor-Leste",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        481
+      ]
+    ]
+  },
+  "TG": {
+    "defaults": "Togo",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        483
+      ]
+    ]
+  },
+  "TK": {
+    "defaults": "Tokelau",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        485
+      ]
+    ]
+  },
+  "TO": {
+    "defaults": "Tonga",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        487
+      ]
+    ]
+  },
+  "TT": {
+    "defaults": "Trinidad and Tobago",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        489
+      ]
+    ]
+  },
+  "TN": {
+    "defaults": "Tunisia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        491
+      ]
+    ]
+  },
+  "TR": {
+    "defaults": "Turkey",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        493
+      ]
+    ]
+  },
+  "TM": {
+    "defaults": "Turkmenistan",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        495
+      ]
+    ]
+  },
+  "TC": {
+    "defaults": "Turks and Caicos Islands",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        497
+      ]
+    ]
+  },
+  "TV": {
+    "defaults": "Tuvalu",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        499
+      ]
+    ]
+  },
+  "UG": {
+    "defaults": "Uganda",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        501
+      ]
+    ]
+  },
+  "UA": {
+    "defaults": "Ukraine",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        503
+      ]
+    ]
+  },
+  "AE": {
+    "defaults": "United Arab Emirates",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        505
+      ]
+    ]
+  },
+  "GB": {
+    "defaults": "United Kingdom",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        507
+      ]
+    ]
+  },
+  "US": {
+    "defaults": "United States",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        509
+      ]
+    ]
+  },
+  "UM": {
+    "defaults": "United States Minor Outlying Islands",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        511
+      ]
+    ]
+  },
+  "UY": {
+    "defaults": "Uruguay",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        513
+      ]
+    ]
+  },
+  "UZ": {
+    "defaults": "Uzbekistan",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        515
+      ]
+    ]
+  },
+  "VU": {
+    "defaults": "Vanuatu",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        517
+      ]
+    ]
+  },
+  "VE": {
+    "defaults": "Venezuela, Bolivarian Republic of",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        519
+      ]
+    ]
+  },
+  "VN": {
+    "defaults": "Viet Nam",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        521
+      ]
+    ]
+  },
+  "VG": {
+    "defaults": "Virgin Islands, British",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        523
+      ]
+    ]
+  },
+  "VI": {
+    "defaults": "Virgin Islands, U.S.",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        525
+      ]
+    ]
+  },
+  "WF": {
+    "defaults": "Wallis and Futuna",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        527
+      ]
+    ]
+  },
+  "EH": {
+    "defaults": "Western Sahara",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        529
+      ]
+    ]
+  },
+  "YE": {
+    "defaults": "Yemen",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        531
+      ]
+    ]
+  },
+  "ZM": {
+    "defaults": "Zambia",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        533
+      ]
+    ]
+  },
+  "ZW": {
+    "defaults": "Zimbabwe",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        535
+      ]
+    ]
+  },
+  "Add JID Code": {
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        618
+      ],
+      [
+        "src/AddJidCode.js",
+        665
+      ]
+    ]
+  },
+  "JID Code": {
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        621
+      ]
+    ]
+  },
+  "Bingo number": {
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        642
+      ]
+    ]
+  },
+  "Control character": {
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        645
+      ]
+    ]
+  },
+  "Cancel": {
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        650
+      ]
+    ]
+  },
+  "Add": {
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        653
+      ]
+    ]
+  }
+}

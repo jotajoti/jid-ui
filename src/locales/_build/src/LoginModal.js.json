@@ -3,15 +3,15 @@
     "origin": [
       [
         "src/LoginModal.js",
-        19
+        34
       ],
       [
         "src/LoginModal.js",
-        59
+        74
       ],
       [
         "src/LoginModal.js",
-        70
+        85
       ]
     ]
   },
@@ -19,7 +19,7 @@
     "origin": [
       [
         "src/LoginModal.js",
-        24
+        39
       ]
     ]
   },
@@ -27,7 +27,7 @@
     "origin": [
       [
         "src/LoginModal.js",
-        30
+        45
       ]
     ]
   },
@@ -35,7 +35,7 @@
     "origin": [
       [
         "src/LoginModal.js",
-        39
+        54
       ]
     ]
   },
@@ -43,7 +43,7 @@
     "origin": [
       [
         "src/LoginModal.js",
-        48
+        63
       ]
     ]
   },
@@ -51,7 +51,7 @@
     "origin": [
       [
         "src/LoginModal.js",
-        56
+        71
       ]
     ]
   }

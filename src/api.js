@@ -37,6 +37,17 @@ export class Api {
         }).then(response => response.json());
     }
 
+    async addJidCode(jidCode) {
+        return fetch(this._getUrl('/jid'), {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                Authorization: localStorage.getItem('token')
+            },
+            body: JSON.stringify({jid: jidCode.toLowerCase()})
+        }).then(response => response.json());
+    }
+
     _getUrl(path) {
         return `${this._serverUrl}${path}`;
     }
