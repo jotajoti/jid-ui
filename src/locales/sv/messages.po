@@ -8,7 +8,7 @@ msgstr ""
 "Language: sv\n"
 "Project-Id-Version: jid-ui\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-06-03 20:59\n"
+"PO-Revision-Date: 2020-06-09 20:07\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -16,81 +16,1131 @@ msgstr ""
 "X-Crowdin-Language: sv-SE\n"
 "X-Crowdin-File: /master/src/locales/en/messages.po\n"
 
-#: src/CreateUserModal.js:67
-#: src/LoginModal.js:56
+#: src/AddJidCode.js:49
+msgid "AD"
+msgstr ""
+
+#: src/AddJidCode.js:505
+msgid "AE"
+msgstr ""
+
+#: src/AddJidCode.js:39
+msgid "AF"
+msgstr ""
+
+#: src/AddJidCode.js:57
+msgid "AG"
+msgstr ""
+
+#: src/AddJidCode.js:53
+msgid "AI"
+msgstr ""
+
+#: src/AddJidCode.js:43
+msgid "AL"
+msgstr ""
+
+#: src/AddJidCode.js:61
+msgid "AM"
+msgstr ""
+
+#: src/AddJidCode.js:51
+msgid "AO"
+msgstr ""
+
+#: src/AddJidCode.js:55
+msgid "AQ"
+msgstr ""
+
+#: src/AddJidCode.js:59
+msgid "AR"
+msgstr ""
+
+#: src/AddJidCode.js:47
+msgid "AS"
+msgstr ""
+
+#: src/AddJidCode.js:67
+msgid "AT"
+msgstr ""
+
+#: src/AddJidCode.js:65
+msgid "AU"
+msgstr ""
+
+#: src/AddJidCode.js:63
+msgid "AW"
+msgstr ""
+
+#: src/AddJidCode.js:41
+msgid "AX"
+msgstr ""
+
+#: src/AddJidCode.js:69
+msgid "AZ"
+msgstr ""
+
+#: src/AddJidCode.js:653
+msgid "Add"
+msgstr ""
+
+#: src/AddJidCode.js:618
+#: src/AddJidCode.js:665
+msgid "Add JID Code"
+msgstr ""
+
+#: src/AddJidCode.js:20
+msgid "Africa Scout Region"
+msgstr ""
+
+#: src/AddJidCode.js:22
+msgid "Arab Scout Region"
+msgstr ""
+
+#: src/AddJidCode.js:24
+msgid "Asia-Pacific Scout Region"
+msgstr ""
+
+#: src/AddJidCode.js:95
+msgid "BA"
+msgstr ""
+
+#: src/AddJidCode.js:77
+msgid "BB"
+msgstr ""
+
+#: src/AddJidCode.js:75
+msgid "BD"
+msgstr ""
+
+#: src/AddJidCode.js:81
+msgid "BE"
+msgstr ""
+
+#: src/AddJidCode.js:109
+msgid "BF"
+msgstr ""
+
+#: src/AddJidCode.js:107
+msgid "BG"
+msgstr ""
+
+#: src/AddJidCode.js:73
+msgid "BH"
+msgstr ""
+
+#: src/AddJidCode.js:111
+msgid "BI"
+msgstr ""
+
+#: src/AddJidCode.js:85
+msgid "BJ"
+msgstr ""
+
+#: src/AddJidCode.js:407
+msgid "BL"
+msgstr ""
+
+#: src/AddJidCode.js:87
+msgid "BM"
+msgstr ""
+
+#: src/AddJidCode.js:105
+msgid "BN"
+msgstr ""
+
+#: src/AddJidCode.js:91
+msgid "BO"
+msgstr ""
+
+#: src/AddJidCode.js:93
+msgid "BQ"
+msgstr ""
+
+#: src/AddJidCode.js:101
+msgid "BR"
+msgstr ""
+
+#: src/AddJidCode.js:71
+msgid "BS"
+msgstr ""
+
+#: src/AddJidCode.js:89
+msgid "BT"
+msgstr ""
+
+#: src/AddJidCode.js:99
+msgid "BV"
+msgstr ""
+
+#: src/AddJidCode.js:97
+msgid "BW"
+msgstr ""
+
+#: src/AddJidCode.js:79
+msgid "BY"
+msgstr ""
+
+#: src/AddJidCode.js:83
+msgid "BZ"
+msgstr ""
+
+#: src/AddJidCode.js:618
+#~ msgid "Bingo code"
+#~ msgstr "Bingo code"
+
+#: src/AddJidCode.js:642
+msgid "Bingo number"
+msgstr ""
+
+#: src/AddJidCode.js:117
+msgid "CA"
+msgstr ""
+
+#: src/AddJidCode.js:133
+msgid "CC"
+msgstr ""
+
+#: src/AddJidCode.js:141
+msgid "CD"
+msgstr ""
+
+#: src/AddJidCode.js:123
+msgid "CF"
+msgstr ""
+
+#: src/AddJidCode.js:139
+msgid "CG"
+msgstr ""
+
+#: src/AddJidCode.js:469
+msgid "CH"
+msgstr ""
+
+#: src/AddJidCode.js:147
+msgid "CI"
+msgstr ""
+
+#: src/AddJidCode.js:143
+msgid "CK"
+msgstr ""
+
+#: src/AddJidCode.js:127
+msgid "CL"
+msgstr ""
+
+#: src/AddJidCode.js:115
+msgid "CM"
+msgstr ""
+
+#: src/AddJidCode.js:129
+msgid "CN"
+msgstr ""
+
+#: src/AddJidCode.js:135
+msgid "CO"
+msgstr ""
+
+#: src/AddJidCode.js:145
+msgid "CR"
+msgstr ""
+
+#: src/AddJidCode.js:151
+msgid "CU"
+msgstr ""
+
+#: src/AddJidCode.js:119
+msgid "CV"
+msgstr ""
+
+#: src/AddJidCode.js:153
+msgid "CW"
+msgstr ""
+
+#: src/AddJidCode.js:131
+msgid "CX"
+msgstr ""
+
+#: src/AddJidCode.js:155
+msgid "CY"
+msgstr ""
+
+#: src/AddJidCode.js:157
+msgid "CZ"
+msgstr ""
+
+#: src/AddJidCode.js:650
+#: src/CreateUserModal.js:71
+#: src/LoginModal.js:71
 msgid "Cancel"
 msgstr ""
 
-#: src/App.js:145
-#: src/App.js:166
+#: src/AddJidCode.js:645
+msgid "Control character"
+msgstr ""
+
+#: src/AddJidCode.js:621
+#~ msgid "Control code"
+#~ msgstr "Control code"
+
+#: src/App.js:142
+#: src/App.js:163
 msgid "Countries"
 msgstr "Länder"
 
-#: src/App.js:170
+#: src/App.js:167
 msgid "Country name"
 msgstr "Landsnamn"
 
-#: src/CreateUserModal.js:29
-#: src/CreateUserModal.js:70
-#: src/CreateUserModal.js:81
+#: src/CreateUserModal.js:33
+#: src/CreateUserModal.js:74
+#: src/CreateUserModal.js:85
 msgid "Create user"
 msgstr ""
 
-#: src/LoginModal.js:48
+#: src/AddJidCode.js:203
+msgid "DE"
+msgstr ""
+
+#: src/AddJidCode.js:161
+msgid "DJ"
+msgstr ""
+
+#: src/AddJidCode.js:159
+msgid "DK"
+msgstr ""
+
+#: src/AddJidCode.js:163
+msgid "DM"
+msgstr ""
+
+#: src/AddJidCode.js:165
+msgid "DO"
+msgstr ""
+
+#: src/AddJidCode.js:45
+msgid "DZ"
+msgstr ""
+
+#: src/AddJidCode.js:167
+msgid "EC"
+msgstr ""
+
+#: src/AddJidCode.js:177
+msgid "EE"
+msgstr ""
+
+#: src/AddJidCode.js:169
+msgid "EG"
+msgstr ""
+
+#: src/AddJidCode.js:529
+msgid "EH"
+msgstr ""
+
+#: src/AddJidCode.js:175
+msgid "ER"
+msgstr ""
+
+#: src/AddJidCode.js:455
+msgid "ES"
+msgstr ""
+
+#: src/AddJidCode.js:179
+msgid "ET"
+msgstr ""
+
+#: src/AddJidCode.js:26
+msgid "Eurasia Scout Region"
+msgstr ""
+
+#: src/AddJidCode.js:28
+msgid "European Scout Region"
+msgstr ""
+
+#: src/AddJidCode.js:187
+msgid "FI"
+msgstr ""
+
+#: src/AddJidCode.js:185
+msgid "FJ"
+msgstr ""
+
+#: src/AddJidCode.js:181
+msgid "FK"
+msgstr ""
+
+#: src/AddJidCode.js:327
+msgid "FM"
+msgstr ""
+
+#: src/AddJidCode.js:183
+msgid "FO"
+msgstr ""
+
+#: src/AddJidCode.js:189
+msgid "FR"
+msgstr ""
+
+#: src/AddJidCode.js:197
+msgid "GA"
+msgstr ""
+
+#: src/AddJidCode.js:507
+msgid "GB"
+msgstr ""
+
+#: src/AddJidCode.js:213
+msgid "GD"
+msgstr ""
+
+#: src/AddJidCode.js:201
+msgid "GE"
+msgstr ""
+
+#: src/AddJidCode.js:191
+msgid "GF"
+msgstr ""
+
+#: src/AddJidCode.js:221
+msgid "GG"
+msgstr ""
+
+#: src/AddJidCode.js:205
+msgid "GH"
+msgstr ""
+
+#: src/AddJidCode.js:207
+msgid "GI"
+msgstr ""
+
+#: src/AddJidCode.js:211
+msgid "GL"
+msgstr ""
+
+#: src/AddJidCode.js:199
+msgid "GM"
+msgstr ""
+
+#: src/AddJidCode.js:223
+msgid "GN"
+msgstr ""
+
+#: src/AddJidCode.js:215
+msgid "GP"
+msgstr ""
+
+#: src/AddJidCode.js:173
+msgid "GQ"
+msgstr ""
+
+#: src/AddJidCode.js:209
+msgid "GR"
+msgstr ""
+
+#: src/AddJidCode.js:451
+msgid "GS"
+msgstr ""
+
+#: src/AddJidCode.js:219
+msgid "GT"
+msgstr ""
+
+#: src/AddJidCode.js:217
+msgid "GU"
+msgstr ""
+
+#: src/AddJidCode.js:225
+msgid "GW"
+msgstr ""
+
+#: src/AddJidCode.js:227
+msgid "GY"
+msgstr ""
+
+#: src/AddJidCode.js:237
+msgid "HK"
+msgstr ""
+
+#: src/AddJidCode.js:231
+msgid "HM"
+msgstr ""
+
+#: src/AddJidCode.js:235
+msgid "HN"
+msgstr ""
+
+#: src/AddJidCode.js:149
+msgid "HR"
+msgstr ""
+
+#: src/AddJidCode.js:229
+msgid "HT"
+msgstr ""
+
+#: src/AddJidCode.js:239
+msgid "HU"
+msgstr ""
+
+#: src/AddJidCode.js:245
+msgid "ID"
+msgstr ""
+
+#: src/AddJidCode.js:251
+msgid "IE"
+msgstr ""
+
+#: src/AddJidCode.js:255
+msgid "IL"
+msgstr ""
+
+#: src/AddJidCode.js:253
+msgid "IM"
+msgstr ""
+
+#: src/AddJidCode.js:243
+msgid "IN"
+msgstr ""
+
+#: src/AddJidCode.js:103
+msgid "IO"
+msgstr ""
+
+#: src/AddJidCode.js:249
+msgid "IQ"
+msgstr ""
+
+#: src/AddJidCode.js:247
+msgid "IR"
+msgstr ""
+
+#: src/AddJidCode.js:241
+msgid "IS"
+msgstr ""
+
+#: src/AddJidCode.js:257
+msgid "IT"
+msgstr ""
+
+#: src/LoginModal.js:63
 msgid "If you do not have a user yet, click here:"
 msgstr ""
 
-#: src/App.js:100
+#: src/AddJidCode.js:30
+msgid "Interamerican Scout Region"
+msgstr ""
+
+#: src/AddJidCode.js:263
+msgid "JE"
+msgstr ""
+
+#: src/AddJidCode.js:621
+msgid "JID Code"
+msgstr ""
+
+#: src/AddJidCode.js:259
+msgid "JM"
+msgstr ""
+
+#: src/AddJidCode.js:265
+msgid "JO"
+msgstr ""
+
+#: src/AddJidCode.js:261
+msgid "JP"
+msgstr ""
+
+#: src/AddJidCode.js:269
+msgid "KE"
+msgstr ""
+
+#: src/AddJidCode.js:279
+msgid "KG"
+msgstr ""
+
+#: src/AddJidCode.js:113
+msgid "KH"
+msgstr ""
+
+#: src/AddJidCode.js:271
+msgid "KI"
+msgstr ""
+
+#: src/AddJidCode.js:137
+msgid "KM"
+msgstr ""
+
+#: src/AddJidCode.js:411
+msgid "KN"
+msgstr ""
+
+#: src/AddJidCode.js:273
+msgid "KP"
+msgstr ""
+
+#: src/AddJidCode.js:275
+msgid "KR"
+msgstr ""
+
+#: src/AddJidCode.js:277
+msgid "KW"
+msgstr ""
+
+#: src/AddJidCode.js:121
+msgid "KY"
+msgstr ""
+
+#: src/AddJidCode.js:267
+msgid "KZ"
+msgstr ""
+
+#: src/AddJidCode.js:281
+msgid "LA"
+msgstr ""
+
+#: src/AddJidCode.js:285
+msgid "LB"
+msgstr ""
+
+#: src/AddJidCode.js:413
+msgid "LC"
+msgstr ""
+
+#: src/AddJidCode.js:293
+msgid "LI"
+msgstr ""
+
+#: src/AddJidCode.js:457
+msgid "LK"
+msgstr ""
+
+#: src/AddJidCode.js:289
+msgid "LR"
+msgstr ""
+
+#: src/AddJidCode.js:287
+msgid "LS"
+msgstr ""
+
+#: src/AddJidCode.js:295
+msgid "LT"
+msgstr ""
+
+#: src/AddJidCode.js:297
+msgid "LU"
+msgstr ""
+
+#: src/AddJidCode.js:283
+msgid "LV"
+msgstr ""
+
+#: src/AddJidCode.js:291
+msgid "LY"
+msgstr ""
+
+#: src/App.js:97
 msgid "Loading"
 msgstr "Laddar"
 
-#: src/LoginModal.js:19
-#: src/LoginModal.js:59
-#: src/LoginModal.js:70
+#: src/LoginModal.js:34
+#: src/LoginModal.js:74
+#: src/LoginModal.js:85
 msgid "Login"
 msgstr ""
 
-#: src/LoginModal.js:24
+#: src/LoginModal.js:39
 msgid "Login to submit JID codes."
 msgstr ""
 
-#: src/UserButton.js:29
+#: src/UserButton.js:52
 msgid "Logout"
 msgstr ""
 
-#: src/App.js:144
-#: src/CreateUserModal.js:37
+#: src/AddJidCode.js:339
+msgid "MA"
+msgstr ""
+
+#: src/AddJidCode.js:331
+msgid "MC"
+msgstr ""
+
+#: src/AddJidCode.js:329
+msgid "MD"
+msgstr ""
+
+#: src/AddJidCode.js:335
+msgid "ME"
+msgstr ""
+
+#: src/AddJidCode.js:415
+msgid "MF"
+msgstr ""
+
+#: src/AddJidCode.js:303
+msgid "MG"
+msgstr ""
+
+#: src/AddJidCode.js:315
+msgid "MH"
+msgstr ""
+
+#: src/AddJidCode.js:301
+msgid "MK"
+msgstr ""
+
+#: src/AddJidCode.js:311
+msgid "ML"
+msgstr ""
+
+#: src/AddJidCode.js:343
+msgid "MM"
+msgstr ""
+
+#: src/AddJidCode.js:333
+msgid "MN"
+msgstr ""
+
+#: src/AddJidCode.js:299
+msgid "MO"
+msgstr ""
+
+#: src/AddJidCode.js:367
+msgid "MP"
+msgstr ""
+
+#: src/AddJidCode.js:317
+msgid "MQ"
+msgstr ""
+
+#: src/AddJidCode.js:319
+msgid "MR"
+msgstr ""
+
+#: src/AddJidCode.js:337
+msgid "MS"
+msgstr ""
+
+#: src/AddJidCode.js:313
+msgid "MT"
+msgstr ""
+
+#: src/AddJidCode.js:321
+msgid "MU"
+msgstr ""
+
+#: src/AddJidCode.js:309
+msgid "MV"
+msgstr ""
+
+#: src/AddJidCode.js:305
+msgid "MW"
+msgstr ""
+
+#: src/AddJidCode.js:325
+msgid "MX"
+msgstr ""
+
+#: src/AddJidCode.js:307
+msgid "MY"
+msgstr ""
+
+#: src/AddJidCode.js:341
+msgid "MZ"
+msgstr ""
+
+#: src/AddJidCode.js:345
+msgid "NA"
+msgstr ""
+
+#: src/AddJidCode.js:353
+msgid "NC"
+msgstr ""
+
+#: src/AddJidCode.js:359
+msgid "NE"
+msgstr ""
+
+#: src/AddJidCode.js:365
+msgid "NF"
+msgstr ""
+
+#: src/AddJidCode.js:361
+msgid "NG"
+msgstr ""
+
+#: src/AddJidCode.js:357
+msgid "NI"
+msgstr ""
+
+#: src/AddJidCode.js:351
+msgid "NL"
+msgstr ""
+
+#: src/AddJidCode.js:369
+msgid "NO"
+msgstr ""
+
+#: src/AddJidCode.js:349
+msgid "NP"
+msgstr ""
+
+#: src/AddJidCode.js:347
+msgid "NR"
+msgstr ""
+
+#: src/AddJidCode.js:363
+msgid "NU"
+msgstr ""
+
+#: src/AddJidCode.js:355
+msgid "NZ"
+msgstr ""
+
+#: src/App.js:141
+#: src/CreateUserModal.js:41
 msgid "Name"
 msgstr "Namn"
 
-#: src/CreateUserModal.js:55
-#: src/LoginModal.js:39
+#: src/AddJidCode.js:371
+msgid "OM"
+msgstr ""
+
+#: src/AddJidCode.js:379
+msgid "PA"
+msgstr ""
+
+#: src/AddJidCode.js:385
+msgid "PE"
+msgstr ""
+
+#: src/AddJidCode.js:193
+msgid "PF"
+msgstr ""
+
+#: src/AddJidCode.js:381
+msgid "PG"
+msgstr ""
+
+#: src/AddJidCode.js:387
+msgid "PH"
+msgstr ""
+
+#: src/AddJidCode.js:373
+msgid "PK"
+msgstr ""
+
+#: src/AddJidCode.js:391
+msgid "PL"
+msgstr ""
+
+#: src/AddJidCode.js:417
+msgid "PM"
+msgstr ""
+
+#: src/AddJidCode.js:389
+msgid "PN"
+msgstr ""
+
+#: src/AddJidCode.js:395
+msgid "PR"
+msgstr ""
+
+#: src/AddJidCode.js:377
+msgid "PS"
+msgstr ""
+
+#: src/AddJidCode.js:393
+msgid "PT"
+msgstr ""
+
+#: src/AddJidCode.js:375
+msgid "PW"
+msgstr ""
+
+#: src/AddJidCode.js:383
+msgid "PY"
+msgstr ""
+
+#: src/CreateUserModal.js:59
+#: src/LoginModal.js:54
 msgid "Password"
 msgstr ""
 
-#: src/App.js:140
+#: src/AddJidCode.js:397
+msgid "QA"
+msgstr ""
+
+#: src/AddJidCode.js:399
+msgid "RE"
+msgstr ""
+
+#: src/AddJidCode.js:401
+msgid "RO"
+msgstr ""
+
+#: src/AddJidCode.js:431
+msgid "RS"
+msgstr ""
+
+#: src/AddJidCode.js:403
+msgid "RU"
+msgstr ""
+
+#: src/AddJidCode.js:405
+msgid "RW"
+msgstr ""
+
+#: src/AddJidCode.js:427
+msgid "SA"
+msgstr ""
+
+#: src/AddJidCode.js:445
+msgid "SB"
+msgstr ""
+
+#: src/AddJidCode.js:433
+msgid "SC"
+msgstr ""
+
+#: src/AddJidCode.js:459
+msgid "SD"
+msgstr ""
+
+#: src/AddJidCode.js:467
+msgid "SE"
+msgstr ""
+
+#: src/AddJidCode.js:437
+msgid "SG"
+msgstr ""
+
+#: src/AddJidCode.js:409
+msgid "SH"
+msgstr ""
+
+#: src/AddJidCode.js:443
+msgid "SI"
+msgstr ""
+
+#: src/AddJidCode.js:463
+msgid "SJ"
+msgstr ""
+
+#: src/AddJidCode.js:441
+msgid "SK"
+msgstr ""
+
+#: src/AddJidCode.js:435
+msgid "SL"
+msgstr ""
+
+#: src/AddJidCode.js:423
+msgid "SM"
+msgstr ""
+
+#: src/AddJidCode.js:429
+msgid "SN"
+msgstr ""
+
+#: src/AddJidCode.js:447
+msgid "SO"
+msgstr ""
+
+#: src/AddJidCode.js:461
+msgid "SR"
+msgstr ""
+
+#: src/AddJidCode.js:453
+msgid "SS"
+msgstr ""
+
+#: src/AddJidCode.js:425
+msgid "ST"
+msgstr ""
+
+#: src/AddJidCode.js:171
+msgid "SV"
+msgstr ""
+
+#: src/AddJidCode.js:439
+msgid "SX"
+msgstr ""
+
+#: src/AddJidCode.js:471
+msgid "SY"
+msgstr ""
+
+#: src/AddJidCode.js:465
+msgid "SZ"
+msgstr ""
+
+#: src/App.js:137
 msgid "Scoreboard"
 msgstr "Resultattavla"
 
-#: src/App.js:106
+#: src/AddJidCode.js:497
+msgid "TC"
+msgstr ""
+
+#: src/AddJidCode.js:125
+msgid "TD"
+msgstr ""
+
+#: src/AddJidCode.js:195
+msgid "TF"
+msgstr ""
+
+#: src/AddJidCode.js:483
+msgid "TG"
+msgstr ""
+
+#: src/AddJidCode.js:479
+msgid "TH"
+msgstr ""
+
+#: src/AddJidCode.js:475
+msgid "TJ"
+msgstr ""
+
+#: src/AddJidCode.js:485
+msgid "TK"
+msgstr ""
+
+#: src/AddJidCode.js:481
+msgid "TL"
+msgstr ""
+
+#: src/AddJidCode.js:495
+msgid "TM"
+msgstr ""
+
+#: src/AddJidCode.js:491
+msgid "TN"
+msgstr ""
+
+#: src/AddJidCode.js:487
+msgid "TO"
+msgstr ""
+
+#: src/AddJidCode.js:493
+msgid "TR"
+msgstr ""
+
+#: src/AddJidCode.js:489
+msgid "TT"
+msgstr ""
+
+#: src/AddJidCode.js:499
+msgid "TV"
+msgstr ""
+
+#: src/AddJidCode.js:473
+msgid "TW"
+msgstr ""
+
+#: src/AddJidCode.js:477
+msgid "TZ"
+msgstr ""
+
+#: src/App.js:103
 msgid "Total number of JID codes: {0}"
 msgstr "Totalt antal JID koder: {0}"
 
-#: src/App.js:110
+#: src/AddJidCode.js:503
+msgid "UA"
+msgstr ""
+
+#: src/AddJidCode.js:501
+msgid "UG"
+msgstr ""
+
+#: src/AddJidCode.js:511
+msgid "UM"
+msgstr ""
+
+#: src/AddJidCode.js:509
+msgid "US"
+msgstr ""
+
+#: src/AddJidCode.js:513
+msgid "UY"
+msgstr ""
+
+#: src/AddJidCode.js:515
+msgid "UZ"
+msgstr ""
+
+#: src/App.js:107
 msgid "Unique JID codes: {0}"
 msgstr "Unika JID-koder: {0}"
 
-#: src/App.js:146
-#: src/App.js:171
+#: src/App.js:143
+#: src/App.js:168
 msgid "Unique codes"
 msgstr "Unika koder"
 
-#: src/App.js:114
+#: src/App.js:111
 msgid "Unique countries: {0}"
 msgstr "Unika länder: {0}"
 
-#: src/CreateUserModal.js:46
-#: src/LoginModal.js:30
+#: src/CreateUserModal.js:50
+#: src/LoginModal.js:45
 msgid "Username"
+msgstr ""
+
+#: src/AddJidCode.js:233
+msgid "VA"
+msgstr ""
+
+#: src/AddJidCode.js:419
+msgid "VC"
+msgstr ""
+
+#: src/AddJidCode.js:519
+msgid "VE"
+msgstr ""
+
+#: src/AddJidCode.js:523
+msgid "VG"
+msgstr ""
+
+#: src/AddJidCode.js:525
+msgid "VI"
+msgstr ""
+
+#: src/AddJidCode.js:521
+msgid "VN"
+msgstr ""
+
+#: src/AddJidCode.js:517
+msgid "VU"
+msgstr ""
+
+#: src/AddJidCode.js:527
+msgid "WF"
+msgstr ""
+
+#: src/AddJidCode.js:421
+msgid "WS"
+msgstr ""
+
+#: src/AddJidCode.js:531
+msgid "YE"
+msgstr ""
+
+#: src/AddJidCode.js:323
+msgid "YT"
+msgstr ""
+
+#: src/AddJidCode.js:449
+msgid "ZA"
+msgstr ""
+
+#: src/AddJidCode.js:533
+msgid "ZM"
+msgstr ""
+
+#: src/AddJidCode.js:535
+msgid "ZW"
 msgstr ""
 
