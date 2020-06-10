@@ -1,18 +1,22 @@
 import React, {useState} from "react";
-import Button from "@material-ui/core/Button";
 import {Trans} from "@lingui/macro";
 import AddIcon from "@material-ui/icons/Add";
-import Dialog from "@material-ui/core/Dialog";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import DialogContent from "@material-ui/core/DialogContent";
-import DialogActions from "@material-ui/core/DialogActions";
-import DialogContentText from "@material-ui/core/DialogContentText";
+import {
+    Button,
+    Dialog,
+    DialogActions,
+    DialogContent,
+    DialogContentText,
+    DialogTitle,
+    FormControl,
+    FormHelperText,
+    Input,
+    InputLabel
+} from "@material-ui/core";
 import MaskedInput from "react-text-mask/dist/reactTextMask";
-import FormControl from "@material-ui/core/FormControl";
-import InputLabel from "@material-ui/core/InputLabel";
-import Input from "@material-ui/core/Input";
+
 import {api} from "./config";
-import FormHelperText from "@material-ui/core/FormHelperText";
+import regionCountries from './regionCountries';
 
 const translateRegion = region => {
     switch (region) {
@@ -571,6 +575,19 @@ const AddJidCodeModal = ({open, handleClose}) => {
     const [errorCode, setErrorCode] = useState(null);
 
     const canSave = jidCode.length === 6;
+    let incorrectCountryCodeForRegion = false;
+    let translatedRegion = null;
+    let translatedCountryCode = null;
+    if (region) {
+        translatedRegion = translateRegion(region);
+
+        if (countryCode) {
+            translatedCountryCode = translateCountryCode(countryCode);
+            if (regionCountries[region].indexOf(countryCode) === -1) {
+                incorrectCountryCodeForRegion = true;
+            }
+        }
+    }
 
     const handleJidCode = newJidCode => {
         if (newJidCode.length >= 1) {
@@ -626,7 +643,7 @@ const AddJidCodeModal = ({open, handleClose}) => {
     return (
         <Dialog open={open} onClose={closeModal} maxWidth="xs" aria-labelledby="form-dialog-title">
             <DialogTitle id="form-dialog-title"><Trans>Add JID Code</Trans></DialogTitle>
-            <DialogContent style={{minHeight: 250, minWidth: 300}}>
+            <DialogContent style={{minHeight: 250, width: 300}}>
                 <FormControl fullWidth style={{marginBottom: 40}} error={!!errorCode}>
                     <InputLabel htmlFor="formatted-text-mask-input"><Trans>JID Code</Trans></InputLabel>
                     <Input
@@ -642,11 +659,15 @@ const AddJidCodeModal = ({open, handleClose}) => {
                     />
                     <FormHelperText id="component-helper-text">{translateErrorCode(errorCode)}</FormHelperText>
                 </FormControl>
+                {incorrectCountryCodeForRegion ? <DialogContentText style={{color: 'red', fontSize: '13px'}}>
+                    <Trans id="error.invalidCountryForRegion">The JID code looks incorrect. The country {countryCode} ({translatedCountryCode})
+                        doesn't belong to the region {region} ({translatedRegion})</Trans>
+                </DialogContentText> : null}
                 {region ? <DialogContentText>
-                    {region} = {translateRegion(region)}
+                    {region} = {translatedRegion}
                 </DialogContentText> : null}
                 {countryCode.length === 2 ? <DialogContentText>
-                    {countryCode.toUpperCase()} = {translateCountryCode(countryCode)}
+                    {countryCode.toUpperCase()} = {translatedCountryCode}
                 </DialogContentText> : null}
                 {bingoCode.length === 2 ? <DialogContentText>
                     {bingoCode} = <Trans>Bingo number</Trans>
