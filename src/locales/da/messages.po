@@ -8,7 +8,7 @@ msgstr ""
 "Language: da\n"
 "Project-Id-Version: jid-ui\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-06-09 20:07\n"
+"PO-Revision-Date: 2020-06-10 14:28\n"
 "Last-Translator: \n"
 "Language-Team: Danish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -80,12 +80,12 @@ msgstr ""
 msgid "AZ"
 msgstr ""
 
-#: src/AddJidCode.js:653
+#: src/AddJidCode.js:666
 msgid "Add"
 msgstr ""
 
-#: src/AddJidCode.js:618
-#: src/AddJidCode.js:665
+#: src/AddJidCode.js:631
+#: src/AddJidCode.js:678
 msgid "Add JID Code"
 msgstr ""
 
@@ -189,7 +189,7 @@ msgstr ""
 #~ msgid "Bingo code"
 #~ msgstr "Bingo code"
 
-#: src/AddJidCode.js:642
+#: src/AddJidCode.js:655
 msgid "Bingo number"
 msgstr ""
 
@@ -269,13 +269,13 @@ msgstr ""
 msgid "CZ"
 msgstr ""
 
-#: src/AddJidCode.js:650
+#: src/AddJidCode.js:663
 #: src/CreateUserModal.js:71
 #: src/LoginModal.js:71
 msgid "Cancel"
 msgstr ""
 
-#: src/AddJidCode.js:645
+#: src/AddJidCode.js:658
 msgid "Control character"
 msgstr ""
 
@@ -534,7 +534,7 @@ msgstr ""
 msgid "JE"
 msgstr ""
 
-#: src/AddJidCode.js:621
+#: src/AddJidCode.js:634
 msgid "JID Code"
 msgstr ""
 
@@ -1142,5 +1142,9 @@ msgstr ""
 
 #: src/AddJidCode.js:535
 msgid "ZW"
+msgstr ""
+
+#: src/AddJidCode.js:544
+msgid "error.addJid.duplicate"
 msgstr ""
 
