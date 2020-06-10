@@ -77,12 +77,12 @@ msgstr "\\u00c5land Islands"
 msgid "AZ"
 msgstr "Azerbaijan"
 
-#: src/AddJidCode.js:653
+#: src/AddJidCode.js:666
 msgid "Add"
 msgstr "Add"
 
-#: src/AddJidCode.js:618
-#: src/AddJidCode.js:665
+#: src/AddJidCode.js:631
+#: src/AddJidCode.js:678
 msgid "Add JID Code"
 msgstr "Add JID Code"
 
@@ -186,7 +186,7 @@ msgstr "Belize"
 #~ msgid "Bingo code"
 #~ msgstr "Bingo code"
 
-#: src/AddJidCode.js:642
+#: src/AddJidCode.js:655
 msgid "Bingo number"
 msgstr "Bingo number"
 
@@ -266,13 +266,13 @@ msgstr "Cyprus"
 msgid "CZ"
 msgstr "Czech Republic"
 
-#: src/AddJidCode.js:650
+#: src/AddJidCode.js:663
 #: src/CreateUserModal.js:71
 #: src/LoginModal.js:71
 msgid "Cancel"
 msgstr "Cancel"
 
-#: src/AddJidCode.js:645
+#: src/AddJidCode.js:658
 msgid "Control character"
 msgstr "Control character"
 
@@ -531,7 +531,7 @@ msgstr "Interamerican Scout Region"
 msgid "JE"
 msgstr "Jersey"
 
-#: src/AddJidCode.js:621
+#: src/AddJidCode.js:634
 msgid "JID Code"
 msgstr "JID Code"
 
@@ -1140,3 +1140,7 @@ msgstr "Zambia"
 #: src/AddJidCode.js:535
 msgid "ZW"
 msgstr "Zimbabwe"
+
+#: src/AddJidCode.js:544
+msgid "error.addJid.duplicate"
+msgstr "You have added the key already."

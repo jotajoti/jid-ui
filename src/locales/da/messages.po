@@ -80,12 +80,12 @@ msgstr "Ålandsøerne"
 msgid "AZ"
 msgstr "Aserbajdsjan"
 
-#: src/AddJidCode.js:653
+#: src/AddJidCode.js:666
 msgid "Add"
 msgstr "Tilføj"
 
-#: src/AddJidCode.js:618
-#: src/AddJidCode.js:665
+#: src/AddJidCode.js:631
+#: src/AddJidCode.js:678
 msgid "Add JID Code"
 msgstr "Tilføj JID Kode"
 
@@ -185,7 +185,7 @@ msgstr "Hviderusland"
 msgid "BZ"
 msgstr "Belize"
 
-#: src/AddJidCode.js:642
+#: src/AddJidCode.js:655
 msgid "Bingo number"
 msgstr "Bingonummer"
 
@@ -265,13 +265,13 @@ msgstr "Cypern"
 msgid "CZ"
 msgstr "Tjekkiet"
 
-#: src/AddJidCode.js:650
+#: src/AddJidCode.js:663
 #: src/CreateUserModal.js:71
 #: src/LoginModal.js:71
 msgid "Cancel"
 msgstr "Annuller"
 
-#: src/AddJidCode.js:645
+#: src/AddJidCode.js:658
 msgid "Control character"
 msgstr "Kontroltegn"
 
@@ -526,7 +526,7 @@ msgstr "Interamerikanske spejderregion"
 msgid "JE"
 msgstr "Jersey"
 
-#: src/AddJidCode.js:621
+#: src/AddJidCode.js:634
 msgid "JID Code"
 msgstr "JID Kode"
 
@@ -1135,3 +1135,7 @@ msgstr "Zambia"
 #: src/AddJidCode.js:535
 msgid "ZW"
 msgstr "Zimbabwe"
+
+#: src/AddJidCode.js:544
+msgid "error.addJid.duplicate"
+msgstr "Du har allerede tilføjet koden"

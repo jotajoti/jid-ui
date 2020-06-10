@@ -538,6 +538,15 @@ const translateCountryCode = countryCode => {
     }
 };
 
+const translateErrorCode = errorCode => {
+    switch (errorCode) {
+        case 'DUPLICATE':
+            return <Trans id="error.addJid.duplicate">You have added the key already.</Trans>;
+        default:
+            return null;
+    }
+};
+
 const JidCodeInput = props => {
     const {inputRef, ...other} = props;
 
@@ -559,7 +568,7 @@ const AddJidCodeModal = ({open, handleClose}) => {
     const [countryCode, setCountryCode] = useState('');
     const [bingoCode, setBingoCode] = useState('');
     const [suffix, setSuffix] = useState('');
-    const [error, setError] = useState(null);
+    const [errorCode, setErrorCode] = useState(null);
 
     const canSave = jidCode.length === 6;
 
@@ -595,6 +604,7 @@ const AddJidCodeModal = ({open, handleClose}) => {
 
     const closeModal = () => {
         handleJidCode('');
+        setErrorCode(null);
         handleClose();
     };
 
@@ -603,7 +613,7 @@ const AddJidCodeModal = ({open, handleClose}) => {
         if (result.saved) {
             closeModal();
         } else {
-            setError(result.error);
+            setErrorCode(result.errorCode);
         }
     };
 
@@ -617,7 +627,7 @@ const AddJidCodeModal = ({open, handleClose}) => {
         <Dialog open={open} onClose={closeModal} maxWidth="xs" aria-labelledby="form-dialog-title">
             <DialogTitle id="form-dialog-title"><Trans>Add JID Code</Trans></DialogTitle>
             <DialogContent style={{minHeight: 250, minWidth: 300}}>
-                <FormControl fullWidth style={{marginBottom: 40}} error={!!error}>
+                <FormControl fullWidth style={{marginBottom: 40}} error={!!errorCode}>
                     <InputLabel htmlFor="formatted-text-mask-input"><Trans>JID Code</Trans></InputLabel>
                     <Input
                         value={jidCode}
@@ -630,7 +640,7 @@ const AddJidCodeModal = ({open, handleClose}) => {
                         autoFocus
                         autoComplete="off"
                     />
-                    <FormHelperText id="component-helper-text">{error}</FormHelperText>
+                    <FormHelperText id="component-helper-text">{translateErrorCode(errorCode)}</FormHelperText>
                 </FormControl>
                 {region ? <DialogContentText>
                     {region} = {translateRegion(region)}

@@ -2288,15 +2288,24 @@
       ]
     ]
   },
+  "error.addJid.duplicate": {
+    "defaults": "You have added the key already.",
+    "origin": [
+      [
+        "src/AddJidCode.js",
+        544
+      ]
+    ]
+  },
   "Add JID Code": {
     "origin": [
       [
         "src/AddJidCode.js",
-        618
+        631
       ],
       [
         "src/AddJidCode.js",
-        665
+        678
       ]
     ]
   },
@@ -2304,7 +2313,7 @@
     "origin": [
       [
         "src/AddJidCode.js",
-        621
+        634
       ]
     ]
   },
@@ -2312,7 +2321,7 @@
     "origin": [
       [
         "src/AddJidCode.js",
-        642
+        655
       ]
     ]
   },
@@ -2320,7 +2329,7 @@
     "origin": [
       [
         "src/AddJidCode.js",
-        645
+        658
       ]
     ]
   },
@@ -2328,7 +2337,7 @@
     "origin": [
       [
         "src/AddJidCode.js",
-        650
+        663
       ]
     ]
   },
@@ -2336,7 +2345,7 @@
     "origin": [
       [
         "src/AddJidCode.js",
-        653
+        666
       ]
     ]
   }
