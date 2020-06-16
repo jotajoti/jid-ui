@@ -56,7 +56,7 @@ export const UserButton = () => {
     const loggedInButtons = <>
         <AddJidCodeButton/>
         <Button color="inherit" onClick={handleUserButtonClick} startIcon={<AccountCircle/>}>
-            {user.name}
+            {user?.name}
         </Button>
     </>;
 
