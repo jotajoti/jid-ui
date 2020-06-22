@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useMemo, useState} from 'react';
 import Table from "@material-ui/core/Table";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
@@ -15,11 +15,13 @@ import iso3to2 from 'country-iso-3-to-2';
 import geoJson from './geojson/countries.geo';
 import moment from 'moment';
 import {Trans} from "@lingui/macro";
+import SearchIcon from '@material-ui/icons/Search';
 
 import logoImage from './logo_50x50.png';
 import {api, newCountryTime} from "./config";
 import {UserButton} from "./UserButton";
 import {translateCountryCode} from "./translateCountryCode";
+import {CountryPopup} from "./CountryPopup";
 
 const styles = {
     root: {
@@ -58,6 +60,9 @@ export const App = withStyles(styles)(props => {
 
     const [stats, setStats] = useState({totals: {jids: 0, unique: 0, countries: 0}, users: [], countries: []});
     const [loading, setLoading] = useState(true);
+    const [hoveredCountry, setHoveredCountry] = useState(null);
+    const [zoomBounds, setZoomBounds] = useState(null);
+    const countryBounds = useMemo(() => ({}), []);
 
     useEffect(() => {
         const fetchStats = async () => {
@@ -111,7 +116,7 @@ export const App = withStyles(styles)(props => {
                         </Grid>
                         <Grid item xs={12}>
                             <Paper>
-                                <Map center={center} zoom={2}>
+                                <Map center={center} zoom={2} bounds={zoomBounds}>
                                     <GeoJSON data={geoJson} style={feature => {
                                         const countryCode = iso3to2(feature.id) ? iso3to2(feature.id).toLowerCase() : null;
                                         const statsCountry = stats.countryMap[countryCode];
@@ -120,9 +125,29 @@ export const App = withStyles(styles)(props => {
                                         return {
                                             weight: 1,
                                             color: '#8a8a8a',
-                                            fillColor: newlyCreated ? '#FFFF00' : statsCountry ? '#0000FF' : '#888888'
+                                            fillColor: newlyCreated ? '#FFFF00' : statsCountry ? '#0000FF' : '#888888',
+                                            interactive: !!statsCountry
                                         };
-                                    }}/>
+                                    }} onEachFeature={(feature, layer) => {
+                                        const countryCode = iso3to2(feature.id) ? iso3to2(feature.id).toLowerCase() : null;
+                                        const statsCountry = stats.countryMap[countryCode];
+
+                                        countryBounds[countryCode] = layer.getBounds();
+
+                                        if (statsCountry) {
+                                            layer.on('mouseover', () => {
+                                                setHoveredCountry({
+                                                    feature
+                                                });
+                                            });
+                                            layer.on('mouseout', () => {
+                                                setHoveredCountry(null);
+                                            });
+                                        }
+                                    }}>
+                                        {hoveredCountry ?
+                                            <CountryPopup hoveredCountry={hoveredCountry} stats={stats}/> : null}
+                                    </GeoJSON>
                                 </Map>
                             </Paper>
                         </Grid>
@@ -171,6 +196,10 @@ export const App = withStyles(styles)(props => {
                                                 <TableRow key={country.country}
                                                           className={newlyCreated ? classes.new : ''}>
                                                     <TableCell component="th" scope="row">
+                                                        <a href="#"
+                                                           onClick={() => setZoomBounds(countryBounds[country.country])}>
+                                                            <SearchIcon style={{fontSize: 13}}/>
+                                                        </a>
                                                         {translateCountryCode(country.country.toUpperCase())}
                                                     </TableCell>
                                                     <TableCell align="right">{country.jids}</TableCell>
