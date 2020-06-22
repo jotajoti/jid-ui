@@ -27,7 +27,7 @@
     "extract": "lingui extract",
     "compile": "lingui compile",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -m '[skip-ci] Updates'"
   },
   "eslintConfig": {
     "extends": "react-app"
