@@ -22,6 +22,7 @@ import {api, newCountryTime} from "./config";
 import {UserButton} from "./UserButton";
 import {translateCountryCode} from "./translateCountryCode";
 import {CountryPopup} from "./CountryPopup";
+import IconButton from "@material-ui/core/IconButton";
 
 const styles = {
     root: {
@@ -196,10 +197,13 @@ export const App = withStyles(styles)(props => {
                                                 <TableRow key={country.country}
                                                           className={newlyCreated ? classes.new : ''}>
                                                     <TableCell component="th" scope="row">
-                                                        <a href="#"
-                                                           onClick={() => setZoomBounds(countryBounds[country.country])}>
-                                                            <SearchIcon style={{fontSize: 13}}/>
-                                                        </a>
+                                                        <IconButton size="small"
+                                                           onClick={() => {
+                                                               window.scrollTo({top: 0, behavior: 'smooth'});
+                                                               setZoomBounds(countryBounds[country.country]);
+                                                           }}>
+                                                            <SearchIcon fontSize="small"/>
+                                                        </IconButton>
                                                         {translateCountryCode(country.country.toUpperCase())}
                                                     </TableCell>
                                                     <TableCell align="right">{country.jids}</TableCell>
