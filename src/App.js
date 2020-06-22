@@ -17,9 +17,9 @@ import moment from 'moment';
 import {Trans} from "@lingui/macro";
 
 import logoImage from './logo_50x50.png';
-import countries from './countries';
 import {api, newCountryTime} from "./config";
 import {UserButton} from "./UserButton";
+import {translateCountryCode} from "./translateCountryCode";
 
 const styles = {
     root: {
@@ -58,11 +58,6 @@ export const App = withStyles(styles)(props => {
 
     const [stats, setStats] = useState({totals: {jids: 0, unique: 0, countries: 0}, users: [], countries: []});
     const [loading, setLoading] = useState(true);
-
-    const countryMap = countries.reduce((lookupMap, country) => {
-        lookupMap[country.code] = country.name;
-        return lookupMap;
-    }, {});
 
     useEffect(() => {
         const fetchStats = async () => {
@@ -176,7 +171,7 @@ export const App = withStyles(styles)(props => {
                                                 <TableRow key={country.country}
                                                           className={newlyCreated ? classes.new : ''}>
                                                     <TableCell component="th" scope="row">
-                                                        {countryMap[country.country.toUpperCase()] ? countryMap[country.country.toUpperCase()] : country.country}
+                                                        {translateCountryCode(country.country.toUpperCase())}
                                                     </TableCell>
                                                     <TableCell align="right">{country.jids}</TableCell>
                                                 </TableRow>
