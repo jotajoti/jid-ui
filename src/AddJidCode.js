@@ -689,7 +689,7 @@ const AddJidCodeModal = ({open, handleClose}) => {
 };
 
 export const AddJidCodeButton = () => {
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
 
     return <>
         <Button color="inherit" startIcon={<AddIcon/>} onClick={() => setOpen(true)}>
