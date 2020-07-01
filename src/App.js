@@ -115,7 +115,7 @@ export const App = withStyles(styles)(props => {
                                 </Grid>
                             </Paper>
                         </Grid>
-                        <Grid item xs={12}>
+                        <Grid item xs={12} sm={6} xl={4}>
                             <Paper>
                                 <Map center={center} zoom={2} bounds={zoomBounds}>
                                     <GeoJSON data={geoJson} style={feature => {
@@ -152,7 +152,7 @@ export const App = withStyles(styles)(props => {
                                 </Map>
                             </Paper>
                         </Grid>
-                        <Grid item xs={6}>
+                        <Grid item xs={12} sm={6} xl={4}>
                             <Paper className={classes.box}>
                                 <Typography variant="h6"
                                             className={classes.boxHeader}><Trans>Scoreboard</Trans></Typography>
@@ -178,7 +178,7 @@ export const App = withStyles(styles)(props => {
                                 </Table>
                             </Paper>
                         </Grid>
-                        <Grid item xs={6}>
+                        <Grid item xs={12} xl={4}>
                             <Paper className={classes.box}>
                                 <Typography variant="h6"
                                             className={classes.boxHeader}><Trans>Countries</Trans></Typography>

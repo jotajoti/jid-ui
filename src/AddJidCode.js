@@ -11,7 +11,8 @@ import {
     FormControl,
     FormHelperText,
     Input,
-    InputLabel
+    InputLabel,
+    MenuItem,
 } from "@material-ui/core";
 import MaskedInput from "react-text-mask/dist/reactTextMask";
 
@@ -156,7 +157,8 @@ const AddJidCodeModal = ({open, handleClose}) => {
                     <FormHelperText id="component-helper-text">{translateErrorCode(errorCode)}</FormHelperText>
                 </FormControl>
                 {incorrectCountryCodeForRegion ? <DialogContentText style={{color: 'red', fontSize: '13px'}}>
-                    <Trans id="error.invalidCountryForRegion">The JID code looks incorrect. The country {countryCode} ({translatedCountryCode})
+                    <Trans id="error.invalidCountryForRegion">The JID code looks incorrect. The
+                        country {countryCode} ({translatedCountryCode})
                         doesn't belong to the region {region} ({translatedRegion})</Trans>
                 </DialogContentText> : null}
                 {region ? <DialogContentText>
@@ -191,6 +193,15 @@ export const AddJidCodeButton = () => {
         <Button color="inherit" startIcon={<AddIcon/>} onClick={() => setOpen(true)}>
             <Trans>Add JID Code</Trans>
         </Button>
+        <AddJidCodeModal open={open} handleClose={() => setOpen(false)}/>
+    </>;
+};
+
+export const AddJidCodeMenuItem = () => {
+    const [open, setOpen] = useState(false);
+
+    return <>
+        <MenuItem onClick={() => setOpen(true)}><Trans>Add JID Code</Trans></MenuItem>
         <AddJidCodeModal open={open} handleClose={() => setOpen(false)}/>
     </>;
 };

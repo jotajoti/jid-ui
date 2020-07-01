@@ -1,15 +1,19 @@
 import React, {useState} from "react";
+import {useMediaQuery} from "@material-ui/core";
 import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import AccountCircle from '@material-ui/icons/AccountCircle';
+import {useTheme} from "@material-ui/core/styles";
 import {Trans} from "@lingui/macro";
 import jwtDecode from 'jwt-decode';
 import {LoginButton} from "./LoginModal";
 import {addListener, EVENT_TYPE} from "./eventManager";
-import {AddJidCodeButton} from "./AddJidCode";
+import {AddJidCodeButton, AddJidCodeMenuItem} from "./AddJidCode";
 
 export const UserButton = () => {
+    const theme = useTheme();
+    const xs = useMediaQuery(theme.breakpoints.down('xs'));
     const [anchorEl, setAnchorEl] = useState(null);
     const isProfileMenuOpen = Boolean(anchorEl);
 
@@ -49,12 +53,13 @@ export const UserButton = () => {
             open={isProfileMenuOpen}
             onClose={handleMenuClose}
         >
+            {xs ? <AddJidCodeMenuItem /> : null}
             <MenuItem onClick={handleLogout}><Trans>Logout</Trans></MenuItem>
         </Menu>
     );
 
     const loggedInButtons = <>
-        <AddJidCodeButton/>
+        {xs ? null : <AddJidCodeButton/>}
         <Button color="inherit" onClick={handleUserButtonClick} startIcon={<AccountCircle/>}>
             {user?.name}
         </Button>
