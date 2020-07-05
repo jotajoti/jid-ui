@@ -5,7 +5,11 @@ import {App} from './App';
 import * as serviceWorker from './serviceWorker';
 import {Intl} from "./intl";
 
-Sentry.init({dsn: "https://73832ea57a124280a31e284c12c71f19@o416351.ingest.sentry.io/5310749"});
+Sentry.init({
+    dsn: "https://73832ea57a124280a31e284c12c71f19@o416351.ingest.sentry.io/5310749",
+    release: `jid-ui@${process.env.CIRCLE_BUILD_NUM ? process.env.CIRCLE_BUILD_NUM : 'local'}`,
+    environment: process.env.CI ? 'prod' : 'dev',
+});
 
 ReactDOM.render(<Intl><App/></Intl>, document.getElementById('root'));
 
