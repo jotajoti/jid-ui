@@ -23,6 +23,7 @@ import {UserButton} from "./UserButton";
 import {translateCountryCode} from "./translateCountryCode";
 import {CountryPopup} from "./CountryPopup";
 import IconButton from "@material-ui/core/IconButton";
+import {addListener, EVENT_TYPE, removeListener} from "./eventManager";
 
 const styles = {
     root: {
@@ -65,19 +66,35 @@ export const App = withStyles(styles)(props => {
     const [zoomBounds, setZoomBounds] = useState(null);
     const countryBounds = useMemo(() => ({}), []);
 
+    const refreshStats = async () => {
+        const stats = await api.getStats();
+        stats.countryMap = stats.countries.reduce((lookupMap, country) => {
+            lookupMap[country.country] = country;
+            return lookupMap;
+        }, {});
+        setStats(stats);
+    };
+
     useEffect(() => {
         const fetchStats = async () => {
-            const stats = await api.getStats();
-            stats.countryMap = stats.countries.reduce((lookupMap, country) => {
-                lookupMap[country.country] = country;
-                return lookupMap;
-            }, {});
-            setStats(stats);
+            await refreshStats();
             setLoading(false);
         };
         fetchStats().then(() => {
             setInterval(fetchStats, 5 * 1000);
         });
+    }, []);
+
+    useEffect(() => {
+        const addJidCodeAddedListener = async event => {
+            if (event.type === EVENT_TYPE.JID_CODE_ADDED) {
+                await refreshStats();
+            }
+        };
+
+        addListener(addJidCodeAddedListener);
+
+        return () => removeListener(addJidCodeAddedListener);
     }, []);
 
     const center = [30, 10];

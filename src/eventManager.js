@@ -1,5 +1,6 @@
 export const EVENT_TYPE = {
-    LOGIN: 'LOGIN'
+    LOGIN: 'LOGIN',
+    JID_CODE_ADDED: 'JID_CODE_ADDED',
 };
 
 const listeners = [];

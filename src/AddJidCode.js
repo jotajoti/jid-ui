@@ -19,6 +19,7 @@ import MaskedInput from "react-text-mask/dist/reactTextMask";
 import {api} from "./config";
 import regionCountries from './regionCountries';
 import {translateCountryCode} from "./translateCountryCode";
+import {EVENT_TYPE, publish} from "./eventManager";
 
 const translateRegion = region => {
     switch (region) {
@@ -125,6 +126,9 @@ const AddJidCodeModal = ({open, handleClose}) => {
     const handleSave = async () => {
         const result = await api.addJidCode(jidCode);
         if (result.saved) {
+            publish({
+                type: EVENT_TYPE.JID_CODE_ADDED
+            });
             closeModal();
         } else {
             setErrorCode(result.errorCode);

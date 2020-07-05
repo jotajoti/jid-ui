@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import {useMediaQuery} from "@material-ui/core";
 import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
@@ -8,7 +8,7 @@ import {useTheme} from "@material-ui/core/styles";
 import {Trans} from "@lingui/macro";
 import jwtDecode from 'jwt-decode';
 import {LoginButton} from "./LoginModal";
-import {addListener, EVENT_TYPE} from "./eventManager";
+import {addListener, EVENT_TYPE, removeListener} from "./eventManager";
 import {AddJidCodeButton, AddJidCodeMenuItem} from "./AddJidCode";
 
 export const UserButton = () => {
@@ -26,11 +26,17 @@ export const UserButton = () => {
     }
     const [user, setUser] = useState(getUserFromLocalStorage());
 
-    addListener(event => {
-        if (event.type === EVENT_TYPE.LOGIN) {
-            setUser(getUserFromLocalStorage());
-        }
-    });
+    useEffect(() => {
+        const loginListener = event => {
+            if (event.type === EVENT_TYPE.LOGIN) {
+                setUser(getUserFromLocalStorage());
+            }
+        };
+
+        addListener(loginListener);
+
+        return () => removeListener(loginListener);
+    }, []);
 
     const handleUserButtonClick = event => {
         setAnchorEl(event.currentTarget);
@@ -53,7 +59,7 @@ export const UserButton = () => {
             open={isProfileMenuOpen}
             onClose={handleMenuClose}
         >
-            {xs ? <AddJidCodeMenuItem /> : null}
+            {xs ? <AddJidCodeMenuItem/> : null}
             <MenuItem onClick={handleLogout}><Trans>Logout</Trans></MenuItem>
         </Menu>
     );
