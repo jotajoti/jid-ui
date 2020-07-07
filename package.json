@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "yarn compile && react-scripts build",
+    "build": "yarn compile && REACT_APP_JID_UI_VERSION=$CIRCLE_BUILD_NUM REACT_APP_JID_UI_PROD_ENVIRONMENT=$CI react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "add-locale": "lingui add-locale",
