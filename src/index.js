@@ -4,6 +4,7 @@ import * as Sentry from '@sentry/react';
 import {App} from './App';
 import * as serviceWorker from './serviceWorker';
 import {Intl} from "./intl";
+import {ErrorBoundary} from "./ErrorBoundary";
 
 Sentry.init({
     dsn: "https://73832ea57a124280a31e284c12c71f19@o416351.ingest.sentry.io/5310749",
@@ -11,7 +12,7 @@ Sentry.init({
     environment: process.env.REACT_APP_JID_UI_PROD_ENVIRONMENT ? 'prod' : 'dev',
 });
 
-ReactDOM.render(<Intl><App/></Intl>, document.getElementById('root'));
+ReactDOM.render(<Intl><ErrorBoundary><App/></ErrorBoundary></Intl>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
