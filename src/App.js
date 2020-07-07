@@ -66,22 +66,30 @@ export const App = withStyles(styles)(props => {
     const [zoomBounds, setZoomBounds] = useState(null);
     const countryBounds = useMemo(() => ({}), []);
 
-    const refreshStats = async () => {
-        const stats = await api.getStats();
-        stats.countryMap = stats.countries.reduce((lookupMap, country) => {
-            lookupMap[country.country] = country;
-            return lookupMap;
-        }, {});
-        setStats(stats);
+    const refreshStats = async (backgroundFetch = true) => {
+        try {
+            const stats = await api.getStats();
+            stats.countryMap = stats.countries.reduce((lookupMap, country) => {
+                lookupMap[country.country] = country;
+                return lookupMap;
+            }, {});
+            setStats(stats);
+        } catch (e) {
+            if (backgroundFetch) {
+                console.warn(e);
+            } else {
+                throw e;
+            }
+        }
     };
 
     useEffect(() => {
         const fetchStats = async () => {
-            await refreshStats();
+            await refreshStats(false);
             setLoading(false);
         };
         fetchStats().then(() => {
-            setInterval(fetchStats, 5 * 1000);
+            setInterval(refreshStats, 5 * 1000);
         });
     }, []);
 
