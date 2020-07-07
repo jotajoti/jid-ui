@@ -53,6 +53,15 @@ jobs:
 
       # Deploy
       - run:
+          name: Download and install Sentry CLI
+          command: |
+            curl -sL https://sentry.io/get-cli/ | bash
+      - run:
+          name: Create release and associate commits to it
+          command: |
+            sentry-cli releases new -p ji-ui "jid-ui@$CIRCLE_BUILD_NUM"
+            sentry-cli releases set-commits --auto "jid-ui@$CIRCLE_BUILD_NUM"
+      - deploy:
           name: Deploy to GitHub Pages if branch is master
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
@@ -60,3 +69,7 @@ jobs:
               git config user.name "Circle CI build"
               yarn deploy
             fi
+      - run:
+          name: Finalize the release
+          command: |
+            sentry-cli releases finalize "jid-ui@$CIRCLE_BUILD_NUM"
