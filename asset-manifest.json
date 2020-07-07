@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/jid-ui/static/js/main.9c41ede3.chunk.js",
-    "main.js.map": "/jid-ui/static/js/main.9c41ede3.chunk.js.map",
+    "main.js": "/jid-ui/static/js/main.d6991e0b.chunk.js",
+    "main.js.map": "/jid-ui/static/js/main.d6991e0b.chunk.js.map",
     "runtime-main.js": "/jid-ui/static/js/runtime-main.57deb90b.js",
     "runtime-main.js.map": "/jid-ui/static/js/runtime-main.57deb90b.js.map",
-    "static/js/2.e8b220fe.chunk.js": "/jid-ui/static/js/2.e8b220fe.chunk.js",
-    "static/js/2.e8b220fe.chunk.js.map": "/jid-ui/static/js/2.e8b220fe.chunk.js.map",
+    "static/js/2.68c1fc57.chunk.js": "/jid-ui/static/js/2.68c1fc57.chunk.js",
+    "static/js/2.68c1fc57.chunk.js.map": "/jid-ui/static/js/2.68c1fc57.chunk.js.map",
     "index.html": "/jid-ui/index.html",
-    "precache-manifest.873ba3f87ae0e42bf965c6ec988baebb.js": "/jid-ui/precache-manifest.873ba3f87ae0e42bf965c6ec988baebb.js",
+    "precache-manifest.3641d6a50e7924641a2e49c38ea9c67f.js": "/jid-ui/precache-manifest.3641d6a50e7924641a2e49c38ea9c67f.js",
     "service-worker.js": "/jid-ui/service-worker.js",
-    "static/js/2.e8b220fe.chunk.js.LICENSE.txt": "/jid-ui/static/js/2.e8b220fe.chunk.js.LICENSE.txt",
+    "static/js/2.68c1fc57.chunk.js.LICENSE.txt": "/jid-ui/static/js/2.68c1fc57.chunk.js.LICENSE.txt",
     "static/media/logo_50x50.png": "/jid-ui/static/media/logo_50x50.c2e75483.png"
   },
   "entrypoints": [
     "static/js/runtime-main.57deb90b.js",
-    "static/js/2.e8b220fe.chunk.js",
-    "static/js/main.9c41ede3.chunk.js"
+    "static/js/2.68c1fc57.chunk.js",
+    "static/js/main.d6991e0b.chunk.js"
   ]
 }
