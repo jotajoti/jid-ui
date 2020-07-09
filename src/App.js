@@ -10,7 +10,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Paper from "@material-ui/core/Paper";
-import {GeoJSON, Map} from "react-leaflet";
+import {GeoJSON, Map as LeafletMap} from "react-leaflet";
 import iso3to2 from 'country-iso-3-to-2';
 import geoJson from './geojson/countries.geo';
 import moment from 'moment';
@@ -142,7 +142,7 @@ export const App = withStyles(styles)(props => {
                         </Grid>
                         <Grid item xs={12} sm={6} xl={4}>
                             <Paper>
-                                <Map center={center} zoom={2} bounds={zoomBounds}>
+                                <LeafletMap center={center} zoom={2} bounds={zoomBounds}>
                                     <GeoJSON data={geoJson} style={feature => {
                                         const countryCode = iso3to2(feature.id) ? iso3to2(feature.id).toLowerCase() : null;
                                         const statsCountry = stats.countryMap[countryCode];
@@ -174,7 +174,7 @@ export const App = withStyles(styles)(props => {
                                         {hoveredCountry ?
                                             <CountryPopup hoveredCountry={hoveredCountry} stats={stats}/> : null}
                                     </GeoJSON>
-                                </Map>
+                                </LeafletMap>
                             </Paper>
                         </Grid>
                         <Grid item xs={12} sm={6} xl={4}>

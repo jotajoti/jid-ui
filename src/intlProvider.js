@@ -2,7 +2,7 @@ import React from 'react';
 import {I18nProvider} from "@lingui/react";
 import da from './locales/da/messages';
 
-export const Intl = props => {
+export const IntlProvider = props => {
     const usersLocale = navigator.language;
 
     const catalogs = {

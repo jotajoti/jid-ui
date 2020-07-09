@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Map} from "react-leaflet";
+import {Map as LeafletMap} from "react-leaflet";
 
 import {CountryPopup} from './CountryPopup';
 
@@ -24,5 +24,5 @@ it('renders without crashing', () => {
     };
 
     const div = document.createElement('div');
-    ReactDOM.render(<Map><CountryPopup stats={stats} hoveredCountry={hoveredCountry} leaflet={leaflet}/></Map>, div);
+    ReactDOM.render(<LeafletMap><CountryPopup stats={stats} hoveredCountry={hoveredCountry} leaflet={leaflet}/></LeafletMap>, div);
 });
