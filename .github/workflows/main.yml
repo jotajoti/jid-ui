@@ -30,7 +30,7 @@ jobs:
       run: yarn build
 
     - name: Test
-      run: yarn test --coverage --coverageReporters=json
+      run: yarn test --coverage --coverageReporters=json --testResultsProcessor=jest-sonar-reporter
 
     - uses: codecov/codecov-action@v1
       with:
