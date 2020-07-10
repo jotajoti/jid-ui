@@ -34,18 +34,13 @@ jobs:
 
     - name: Fix paths in test-report and coverage to satisfy SonarCloud scanner
       run: |
-        sed -i 's/\/home\/runner\/work\/jid-ui\/jid-ui/\/github\/workspace/g' test-report.xml
-        sed -i 's/\/home\/runner\/work\/jid-ui\/jid-ui/\/github\/workspace/g' coverage/lcov.info
+        sed -i 's/\/home\/runner\/work\/jid-ui\/jid-ui\///g' test-report.xml
+        sed -i 's/\/home\/runner\/work\/jid-ui\/jid-ui\///g' coverage/lcov.info
 
-    - name: Debug folder content
-      run: ls -l
-
-    - uses: actions/upload-artifact@v2
-      with:
-        name: coverage
-        path: |
-          ./coverage
-          ./test-report.xml
+    - name: Debug generated files
+      run: |
+        cat test-report.xml
+        cat coverage/lcov.info
 
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
