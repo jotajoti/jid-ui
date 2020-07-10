@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/jid-ui/static/js/main.78d58473.chunk.js",
-    "main.js.map": "/jid-ui/static/js/main.78d58473.chunk.js.map",
+    "main.js": "/jid-ui/static/js/main.2435f63d.chunk.js",
+    "main.js.map": "/jid-ui/static/js/main.2435f63d.chunk.js.map",
     "runtime-main.js": "/jid-ui/static/js/runtime-main.57deb90b.js",
     "runtime-main.js.map": "/jid-ui/static/js/runtime-main.57deb90b.js.map",
     "static/js/2.68c1fc57.chunk.js": "/jid-ui/static/js/2.68c1fc57.chunk.js",
     "static/js/2.68c1fc57.chunk.js.map": "/jid-ui/static/js/2.68c1fc57.chunk.js.map",
     "index.html": "/jid-ui/index.html",
-    "precache-manifest.14c9273d3d612004f7a961d0d0800901.js": "/jid-ui/precache-manifest.14c9273d3d612004f7a961d0d0800901.js",
+    "precache-manifest.21c761023e5f0724b56df3c64308f71e.js": "/jid-ui/precache-manifest.21c761023e5f0724b56df3c64308f71e.js",
     "service-worker.js": "/jid-ui/service-worker.js",
     "static/js/2.68c1fc57.chunk.js.LICENSE.txt": "/jid-ui/static/js/2.68c1fc57.chunk.js.LICENSE.txt",
     "static/media/logo_50x50.png": "/jid-ui/static/media/logo_50x50.c2e75483.png"
@@ -15,6 +15,6 @@
   "entrypoints": [
     "static/js/runtime-main.57deb90b.js",
     "static/js/2.68c1fc57.chunk.js",
-    "static/js/main.78d58473.chunk.js"
+    "static/js/main.2435f63d.chunk.js"
   ]
 }
