@@ -32,24 +32,13 @@ jobs:
     - name: Test
       run: yarn test --coverage --coverageReporters=json --coverageReporters=lcov --testResultsProcessor=jest-sonar-reporter
 
-    - uses: actions/upload-artifact@v2
-      with:
-        name: coverage
-        path: |
-          ./coverage
-          ./test-report.xml
-
-    - uses: codecov/codecov-action@v1
-      with:
-        file: ./coverage/coverage-final.json
-        flags: unittests
-        name: codecov-umbrella
-        fail_ci_if_error: true
+    - name: Fix paths in test-report and coverage to satisfy SonarCloud scanner
+      run: |
+        sed -i 's/\/home\/runner\/work\/jid-ui\/jid-ui/\/github\/workspace/g' test-report.xml
+        sed -i 's/\/home\/runner\/work\/jid-ui\/jid-ui/\/github\/workspace/g' coverage/lcov.info
 
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
-      with:
-        projectBaseDir: /home/runner/work/jid-ui/jid-ui
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
