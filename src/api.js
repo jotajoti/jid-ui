@@ -9,43 +9,51 @@ export class Api {
     }
 
     async createUser(name, username, password) {
-        return fetch(this._getUrl('/createUser'), {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                    name,
-                    username,
-                    password
-                }
-            )
-        }).then(response => response.json());
+        const body = {
+            name,
+            username,
+            password
+        };
+        const request = this._createPostRequest(body);
+        return fetch(this._getUrl('/createUser'), request).then(response => response.json());
     }
 
     async login(username, password) {
-        return fetch(this._getUrl('/login'), {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                    username,
-                    password
-                }
-            )
-        }).then(response => response.json());
+        const body = {
+            username,
+            password
+        };
+        const request = this._createPostRequest(body);
+
+        return fetch(this._getUrl('/login'), request).then(response => response.json());
     }
 
     async addJidCode(jidCode) {
-        return fetch(this._getUrl('/jid'), {
+        const body = {
+            jid: jidCode.toLowerCase()
+        };
+        const extraHeaders = {
+            Authorization: localStorage.getItem('token')
+        };
+        const request = this._createPostRequest(body, extraHeaders);
+
+        return fetch(this._getUrl('/jid'), request).then(response => response.json());
+    }
+
+    _createPostRequest(body, extraHeaders) {
+        const headers = {
+            'Content-Type': 'application/json'
+        };
+
+        if (extraHeaders) {
+            Object.assign(headers, extraHeaders);
+        }
+
+        return {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                Authorization: localStorage.getItem('token')
-            },
-            body: JSON.stringify({jid: jidCode.toLowerCase()})
-        }).then(response => response.json());
+            headers,
+            body: JSON.stringify(body)
+        };
     }
 
     _getUrl(path) {

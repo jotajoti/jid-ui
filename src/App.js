@@ -148,10 +148,11 @@ export const App = withStyles(styles)(props => {
                                         const statsCountry = stats.countryMap[countryCode];
                                         const firstCreated = statsCountry ? moment(statsCountry.created) : null;
                                         const newlyCreated = firstCreated && newCountryIndicator.isBefore(firstCreated);
+                                        const fillColor = newlyCreated ? '#FFFF00' : statsCountry ? '#0000FF' : '#888888';
                                         return {
                                             weight: 1,
                                             color: '#8a8a8a',
-                                            fillColor: newlyCreated ? '#FFFF00' : statsCountry ? '#0000FF' : '#888888',
+                                            fillColor,
                                             interactive: !!statsCountry
                                         };
                                     }} onEachFeature={(feature, layer) => {
