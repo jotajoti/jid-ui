@@ -59,8 +59,8 @@ jobs:
       - run:
           name: Create release and associate commits to it
           command: |
-            sentry-cli releases new -p jid-ui "jid-ui@$CIRCLE_BUILD_NUM"
-            sentry-cli releases set-commits --auto "jid-ui@$CIRCLE_BUILD_NUM"
+            sentry-cli --url https://sentry.billestauner.dk releases new -p jid-ui "jid-ui@$CIRCLE_BUILD_NUM"
+            sentry-cli --url https://sentry.billestauner.dk releases set-commits --auto "jid-ui@$CIRCLE_BUILD_NUM"
       - deploy:
           name: Deploy to GitHub Pages if branch is master
           command: |
@@ -72,4 +72,4 @@ jobs:
       - run:
           name: Finalize the release
           command: |
-            sentry-cli releases finalize "jid-ui@$CIRCLE_BUILD_NUM"
+            sentry-cli --url https://sentry.billestauner.dk releases finalize "jid-ui@$CIRCLE_BUILD_NUM"
