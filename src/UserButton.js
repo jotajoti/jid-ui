@@ -61,6 +61,7 @@ export const UserButton = () => {
         >
             {xs ? <AddJidCodeMenuItem/> : null}
             <MenuItem onClick={handleLogout}><Trans>Logout</Trans></MenuItem>
+            <MenuItem onClick={() => {throw new Error('Test of error')}}>Crash</MenuItem>
         </Menu>
     );
 
