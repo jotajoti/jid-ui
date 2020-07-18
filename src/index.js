@@ -7,7 +7,7 @@ import {IntlProvider} from "./intlProvider";
 import {ErrorBoundary} from "./ErrorBoundary";
 
 Sentry.init({
-    dsn: "https://408b21bcf70f4cc8a3e0bc6cfa5975fa@sentry.billestauner.dk/2",
+    dsn: "https://cc1f390153954faaa2eade57698875c7@sentry.billestauner.dk/2",
     release: `jid-ui@${process.env.REACT_APP_JID_UI_VERSION ? process.env.REACT_APP_JID_UI_VERSION : 'local'}`,
     environment: process.env.REACT_APP_JID_UI_PROD_ENVIRONMENT ? 'prod' : 'dev',
 });
