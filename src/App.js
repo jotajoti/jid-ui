@@ -16,6 +16,7 @@ import geoJson from './geojson/countries.geo';
 import moment from 'moment';
 import {Trans} from "@lingui/macro";
 import SearchIcon from '@material-ui/icons/Search';
+import {withProfiler} from '@sentry/react';
 
 import logoImage from './logo_50x50.png';
 import {api, newCountryTime} from "./config";
@@ -57,7 +58,7 @@ const styles = {
     }
 };
 
-export const App = withStyles(styles)(props => {
+export const App = withProfiler(withStyles(styles)(props => {
     const {classes} = props;
 
     const [stats, setStats] = useState({totals: {jids: 0, unique: 0, countries: 0}, users: [], countries: []});
@@ -245,4 +246,4 @@ export const App = withStyles(styles)(props => {
             </div>
         </div>
     );
-});
+}), {name: 'Dashboard'});
