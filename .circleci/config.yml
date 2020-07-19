@@ -73,3 +73,4 @@ jobs:
           name: Finalize the release
           command: |
             sentry-cli --url https://sentry.billestauner.dk releases finalize "jid-ui@$CIRCLE_BUILD_NUM"
+            sentry-cli --url https://sentry.billestauner.dk releases deploys "jid-ui@$CIRCLE_BUILD_NUM" new -e prod
