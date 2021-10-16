@@ -36,6 +36,8 @@ const translateRegion = region => {
             return <Trans>European Scout Region</Trans>;
         case '6':
             return <Trans>Interamerican Scout Region</Trans>;
+        case '7':
+            return <Trans>Special</Trans>;
         default:
             return null;
     }
@@ -59,7 +61,7 @@ const JidCodeInput = props => {
             ref={(ref) => {
                 inputRef(ref ? ref.inputElement : null);
             }}
-            mask={[/[1-6]/, /[a-zA-Z]/, /[a-zA-Z]/, /[0-9]/, /[0-9]/, /[a-zA-Z]/]}
+            mask={[/[1-7]/, /[a-zA-Z]/, /[a-zA-Z]/, /[0-9]/, /[0-9]/, /[a-zA-Z]/]}
             placeholderChar={'\u2000'}
         />
     );
