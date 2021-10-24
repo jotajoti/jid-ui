@@ -51,26 +51,3 @@ jobs:
 
       - run: bash <(curl -s https://codecov.io/bash)
 
-      # Deploy
-      - run:
-          name: Download and install Sentry CLI
-          command: |
-            curl -sL https://sentry.io/get-cli/ | bash
-      - run:
-          name: Create release and associate commits to it
-          command: |
-            sentry-cli --url https://sentry.billestauner.dk releases new -p jid-ui "jid-ui@$CIRCLE_BUILD_NUM"
-            sentry-cli --url https://sentry.billestauner.dk releases set-commits --auto "jid-ui@$CIRCLE_BUILD_NUM"
-      - deploy:
-          name: Deploy to GitHub Pages if branch is master
-          command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              git config user.email "jid-ui-ci@frankbille.dk"
-              git config user.name "Circle CI build"
-              yarn deploy
-            fi
-      - run:
-          name: Finalize the release
-          command: |
-            sentry-cli --url https://sentry.billestauner.dk releases finalize "jid-ui@$CIRCLE_BUILD_NUM"
-            sentry-cli --url https://sentry.billestauner.dk releases deploys "jid-ui@$CIRCLE_BUILD_NUM" new -e prod
