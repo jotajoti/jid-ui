@@ -57,7 +57,7 @@ export class Api {
     }
 
     _getUrl(path) {
-        return `${this._serverUrl}${path}`;
+        return `${this._serverUrl}/api${path}`;
     }
 
 }
