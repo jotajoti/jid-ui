@@ -4,15 +4,10 @@
 #
 version: 2
 jobs:
-  build:
+  "Build and Test Code":
     docker:
       # specify the version you desire here
-      - image: circleci/node:12.16
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
+      - image: circleci/node:14.18
 
     working_directory: ~/repo
 
@@ -50,27 +45,61 @@ jobs:
       - run: yarn build
 
       - run: bash <(curl -s https://codecov.io/bash)
+  
+  "Build and Push Docker Image":
+    docker:
+      - image: cimg/base:2021.10
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - setup_remote_docker
+      - restore_cache:
+          keys:
+            - v1-{{ .Branch }}
+          paths:
+            - caches/app.tar
+      - run:
+          name: Load Docker image layer cache
+          command: |
+            set +o pipefail
+            docker load -i caches/app.tar | true
+      - run:
+          name: Build application Docker image
+          command: |
+            docker build --cache-from=app -t jotajoti/jid-ui .
+      - run:
+          name: Save Docker image layer cache
+          command: |
+            mkdir -p caches
+            docker save -o caches/app.tar jotajoti/jid-ui
+      - save_cache:
+          key: v1-{{ .Branch }}-{{ epoch }}
+          paths:
+            - caches/app.tar
+      - run:
+          name: Login and push to Docker Hub
+          command: |
+            echo "$DOCKERHUB_ACCESS_TOKEN" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
+            docker push jotajoti/jid-ui:latest
 
-      # Deploy
-      - run:
-          name: Download and install Sentry CLI
-          command: |
-            curl -sL https://sentry.io/get-cli/ | bash
-      - run:
-          name: Create release and associate commits to it
-          command: |
-            sentry-cli --url https://sentry.billestauner.dk releases new -p jid-ui "jid-ui@$CIRCLE_BUILD_NUM"
-            sentry-cli --url https://sentry.billestauner.dk releases set-commits --auto "jid-ui@$CIRCLE_BUILD_NUM"
-      - deploy:
-          name: Deploy to GitHub Pages if branch is master
-          command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              git config user.email "jid-ui-ci@frankbille.dk"
-              git config user.name "Circle CI build"
-              yarn deploy
-            fi
-      - run:
-          name: Finalize the release
-          command: |
-            sentry-cli --url https://sentry.billestauner.dk releases finalize "jid-ui@$CIRCLE_BUILD_NUM"
-            sentry-cli --url https://sentry.billestauner.dk releases deploys "jid-ui@$CIRCLE_BUILD_NUM" new -e prod
+workflows:
+  version: 2
+  Build:
+    jobs:
+      - "Build and Test Code":
+          filters:
+            branches:
+              ignore: master
+  "Build and Publish":
+    jobs:
+      - "Build and Test Code":
+          filters:
+            branches:
+              only: master
+      - "Build and Push Docker Image":
+          context: MainContext
+          requires:
+            - "Build and Test Code"
+          filters:
+            branches:
+              only: master

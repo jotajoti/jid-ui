@@ -15,7 +15,6 @@ import {
     MenuItem,
 } from "@material-ui/core";
 import MaskedInput from "react-text-mask/dist/reactTextMask";
-import {withProfiler} from '@sentry/react';
 
 import {api} from "./config";
 import regionCountries from './regionCountries';
@@ -36,6 +35,8 @@ const translateRegion = region => {
             return <Trans>European Scout Region</Trans>;
         case '6':
             return <Trans>Interamerican Scout Region</Trans>;
+        case '7':
+            return <Trans>Special</Trans>;
         default:
             return null;
     }
@@ -59,13 +60,13 @@ const JidCodeInput = props => {
             ref={(ref) => {
                 inputRef(ref ? ref.inputElement : null);
             }}
-            mask={[/[1-6]/, /[a-zA-Z]/, /[a-zA-Z]/, /[0-9]/, /[0-9]/, /[a-zA-Z]/]}
+            mask={[/[1-7]/, /[a-zA-Z]/, /[a-zA-Z]/, /[0-9]/, /[0-9]/, /[a-zA-Z]/]}
             placeholderChar={'\u2000'}
         />
     );
 };
 
-const AddJidCodeModal = withProfiler(({open, handleClose}) => {
+const AddJidCodeModal = ({open, handleClose}) => {
     const [jidCode, setJidCode] = useState('');
     const [region, setRegion] = useState('');
     const [countryCode, setCountryCode] = useState('');
@@ -189,7 +190,7 @@ const AddJidCodeModal = withProfiler(({open, handleClose}) => {
             </DialogActions>
         </Dialog>
     );
-}, {name: 'AddJidCodeModal', includeUpdates: false});
+};
 
 export const AddJidCodeButton = () => {
     const [open, setOpen] = useState(false);
