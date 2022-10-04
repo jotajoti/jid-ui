@@ -7,7 +7,7 @@ jobs:
   "Build and Test Code":
     docker:
       # specify the version you desire here
-      - image: cimg/node:lts
+      - image: circleci/node:14.18
 
     working_directory: ~/repo
 
@@ -48,7 +48,7 @@ jobs:
   
   "Build and Push Docker Image":
     docker:
-      - image: docker:stable
+      - image: cimg/base:2021.10
     working_directory: ~/repo
     steps:
       - checkout
