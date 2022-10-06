@@ -112,9 +112,9 @@ export const App = withStyles(styles)(props => {
         <div className={classes.root}>
             <AppBar position={'fixed'} className={classes.appBar} color="default">
                 <Toolbar>
-                    <img src={logoImage} height={50} alt="Jota/Joti 2020"/>
+                    <img src={logoImage} height={50} alt="Jota/Joti 2022"/>
                     <Typography variant="h6" color="inherit" className={classes.title}>
-                        Jota/Joti 2020
+                        Jota/Joti 2022
                     </Typography>
                     <UserButton/>
                 </Toolbar>
