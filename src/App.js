@@ -89,7 +89,7 @@ export const App = withStyles(styles)(props => {
             setLoading(false);
         };
         fetchStats().then(() => {
-            setInterval(refreshStats, 5 * 1000);
+            setInterval(refreshStats, 300 * 1000);
         });
     }, []);
 
