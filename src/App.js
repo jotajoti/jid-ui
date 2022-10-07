@@ -18,7 +18,7 @@ import {Trans} from "@lingui/macro";
 import SearchIcon from '@material-ui/icons/Search';
 
 import logoImage from './logo_50x50.png';
-import {api, newCountryTime} from "./config";
+import {api, pageTitle, newCountryTime} from "./config";
 import {UserButton} from "./UserButton";
 import {translateCountryCode} from "./translateCountryCode";
 import {CountryPopup} from "./CountryPopup";
@@ -65,6 +65,8 @@ export const App = withStyles(styles)(props => {
     const [hoveredCountry, setHoveredCountry] = useState(null);
     const [zoomBounds, setZoomBounds] = useState(null);
     const countryBounds = useMemo(() => ({}), []);
+    const title = pageTitle;
+    document.title = title;
 
     const refreshStats = async (backgroundFetch = true) => {
         try {
@@ -112,9 +114,9 @@ export const App = withStyles(styles)(props => {
         <div className={classes.root}>
             <AppBar position={'fixed'} className={classes.appBar} color="default">
                 <Toolbar>
-                    <img src={logoImage} height={50} alt="Jota/Joti 2022"/>
+                    <img src={logoImage} height={50} alt="Jota/Joti"/>
                     <Typography variant="h6" color="inherit" className={classes.title}>
-                        Jota/Joti 2022
+                        {title}
                     </Typography>
                     <UserButton/>
                 </Toolbar>
