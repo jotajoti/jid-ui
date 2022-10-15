@@ -4,277 +4,279 @@ msgstr ""
 "Mime-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: @lingui/cli\n"
 "Language: da\n"
 "Project-Id-Version: jid-ui\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-10-20 13:18\n"
-"Last-Translator: frankbille-test1\n"
+"PO-Revision-Date: 2022-10-15 17:08\n"
+"Last-Translator: \n"
 "Language-Team: Danish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: jid-ui\n"
+"X-Crowdin-Project-ID: 377627\n"
 "X-Crowdin-Language: da\n"
 "X-Crowdin-File: /master/src/locales/en/messages.po\n"
+"X-Crowdin-File-ID: 10\n"
 
 #: src/translateCountryCode.js:17
 msgid "AD"
-msgstr "Andorra"
+msgstr ""
 
 #: src/translateCountryCode.js:473
 msgid "AE"
-msgstr "Forenede Arabiske Emirater"
+msgstr ""
 
 #: src/translateCountryCode.js:7
 msgid "AF"
-msgstr "Afghanistan"
+msgstr ""
 
 #: src/translateCountryCode.js:25
 msgid "AG"
-msgstr "Antigua og Barbuda"
+msgstr ""
 
 #: src/translateCountryCode.js:21
 msgid "AI"
-msgstr "Anguilla"
+msgstr ""
 
 #: src/translateCountryCode.js:11
 msgid "AL"
-msgstr "Albanien"
+msgstr ""
 
 #: src/translateCountryCode.js:29
 msgid "AM"
-msgstr "Armenien"
+msgstr ""
 
 #: src/translateCountryCode.js:19
 msgid "AO"
-msgstr "Angola"
+msgstr ""
 
 #: src/translateCountryCode.js:23
 msgid "AQ"
-msgstr "Antarktis"
+msgstr ""
 
 #: src/translateCountryCode.js:27
 msgid "AR"
-msgstr "Argentina"
+msgstr ""
 
 #: src/translateCountryCode.js:15
 msgid "AS"
-msgstr "Amerikansk Samoa"
+msgstr ""
 
 #: src/translateCountryCode.js:35
 msgid "AT"
-msgstr "Østrig"
+msgstr ""
 
 #: src/translateCountryCode.js:33
 msgid "AU"
-msgstr "Australien"
+msgstr ""
 
 #: src/translateCountryCode.js:31
 msgid "AW"
-msgstr "Aruba"
+msgstr ""
 
 #: src/translateCountryCode.js:9
 msgid "AX"
-msgstr "Ålandsøerne"
+msgstr ""
 
 #: src/translateCountryCode.js:37
 msgid "AZ"
-msgstr "Aserbajdsjan"
+msgstr ""
 
 #: src/AddJidCode.js:188
 msgid "Add"
-msgstr "Tilføj"
+msgstr ""
 
 #: src/AddJidCode.js:148
 #: src/AddJidCode.js:200
 #: src/AddJidCode.js:210
 msgid "Add JID Code"
-msgstr "Tilføj JID Kode"
+msgstr ""
 
 #: src/AddJidCode.js:27
 msgid "Africa Scout Region"
-msgstr "Afrika spejderregion"
+msgstr ""
 
 #: src/AddJidCode.js:29
 msgid "Arab Scout Region"
-msgstr "Arabiske spejderregion"
+msgstr ""
 
 #: src/AddJidCode.js:31
 msgid "Asia-Pacific Scout Region"
-msgstr "Asien-Stillehavs spejderregion"
+msgstr ""
 
 #: src/translateCountryCode.js:63
 msgid "BA"
-msgstr "Bosnien-Hercegovina"
+msgstr ""
 
 #: src/translateCountryCode.js:45
 msgid "BB"
-msgstr "Barbados"
+msgstr ""
 
 #: src/translateCountryCode.js:43
 msgid "BD"
-msgstr "Bangladesh"
+msgstr ""
 
 #: src/translateCountryCode.js:49
 msgid "BE"
-msgstr "Belgien"
+msgstr ""
 
 #: src/translateCountryCode.js:77
 msgid "BF"
-msgstr "Burkina Faso"
+msgstr ""
 
 #: src/translateCountryCode.js:75
 msgid "BG"
-msgstr "Bulgarien"
+msgstr ""
 
 #: src/translateCountryCode.js:41
 msgid "BH"
-msgstr "Bahrain"
+msgstr ""
 
 #: src/translateCountryCode.js:79
 msgid "BI"
-msgstr "Burundi"
+msgstr ""
 
 #: src/translateCountryCode.js:53
 msgid "BJ"
-msgstr "Benin"
+msgstr ""
 
 #: src/translateCountryCode.js:375
 msgid "BL"
-msgstr "Skt. Barthelemy"
+msgstr ""
 
 #: src/translateCountryCode.js:55
 msgid "BM"
-msgstr "Bermuda"
+msgstr ""
 
 #: src/translateCountryCode.js:73
 msgid "BN"
-msgstr "Brunei"
+msgstr ""
 
 #: src/translateCountryCode.js:59
 msgid "BO"
-msgstr "Bolivia"
+msgstr ""
 
 #: src/translateCountryCode.js:61
 msgid "BQ"
-msgstr "Bonaire, Skt. Eustatius og Saba"
+msgstr ""
 
 #: src/translateCountryCode.js:69
 msgid "BR"
-msgstr "Brasilien"
+msgstr ""
 
 #: src/translateCountryCode.js:39
 msgid "BS"
-msgstr "Bahamas"
+msgstr ""
 
 #: src/translateCountryCode.js:57
 msgid "BT"
-msgstr "Bhutan"
+msgstr ""
 
 #: src/translateCountryCode.js:67
 msgid "BV"
-msgstr "Bouvetøen"
+msgstr ""
 
 #: src/translateCountryCode.js:65
 msgid "BW"
-msgstr "Botswana"
+msgstr ""
 
 #: src/translateCountryCode.js:47
 msgid "BY"
-msgstr "Hviderusland"
+msgstr ""
 
 #: src/translateCountryCode.js:51
 msgid "BZ"
-msgstr "Belize"
+msgstr ""
 
 #: src/AddJidCode.js:177
 msgid "Bingo number"
-msgstr "Bingonummer"
+msgstr ""
 
 #: src/translateCountryCode.js:85
 msgid "CA"
-msgstr "Canada"
+msgstr ""
 
 #: src/translateCountryCode.js:101
 msgid "CC"
-msgstr "Cocosøerne"
+msgstr ""
 
 #: src/translateCountryCode.js:109
 msgid "CD"
-msgstr "Congo, Demokratiske Republik"
+msgstr ""
 
 #: src/translateCountryCode.js:91
 msgid "CF"
-msgstr "Centralafrikanske Republik"
+msgstr ""
 
 #: src/translateCountryCode.js:107
 msgid "CG"
-msgstr "Congo, Republikken"
+msgstr ""
 
 #: src/translateCountryCode.js:437
 msgid "CH"
-msgstr "Schweiz"
+msgstr ""
 
 #: src/translateCountryCode.js:115
 msgid "CI"
-msgstr "Elfenbenskysten"
+msgstr ""
 
 #: src/translateCountryCode.js:111
 msgid "CK"
-msgstr "Cookøerne"
+msgstr ""
 
 #: src/translateCountryCode.js:95
 msgid "CL"
-msgstr "Chile"
+msgstr ""
 
 #: src/translateCountryCode.js:83
 msgid "CM"
-msgstr "Cameroun"
+msgstr ""
 
 #: src/translateCountryCode.js:97
 msgid "CN"
-msgstr "Kina"
+msgstr ""
 
 #: src/translateCountryCode.js:103
 msgid "CO"
-msgstr "Colombia"
+msgstr ""
 
 #: src/translateCountryCode.js:113
 msgid "CR"
-msgstr "Costa Rica"
+msgstr ""
 
 #: src/translateCountryCode.js:119
 msgid "CU"
-msgstr "Cuba"
+msgstr ""
 
 #: src/translateCountryCode.js:87
 msgid "CV"
-msgstr "Kap Verde"
+msgstr ""
 
 #: src/translateCountryCode.js:121
 msgid "CW"
-msgstr "Curacao"
+msgstr ""
 
 #: src/translateCountryCode.js:99
 msgid "CX"
-msgstr "Juleøen"
+msgstr ""
 
 #: src/translateCountryCode.js:123
 msgid "CY"
-msgstr "Cypern"
+msgstr ""
 
 #: src/translateCountryCode.js:125
 msgid "CZ"
-msgstr "Tjekkiet"
+msgstr ""
 
 #: src/AddJidCode.js:185
 #: src/CreateUserModal.js:71
 #: src/LoginModal.js:71
 msgid "Cancel"
-msgstr "Annuller"
+msgstr ""
 
 #: src/AddJidCode.js:180
 msgid "Control character"
-msgstr "Kontroltegn"
+msgstr ""
 
 #: src/App.js:191
 #: src/App.js:212
@@ -289,347 +291,347 @@ msgstr "Landenavn"
 #: src/CreateUserModal.js:74
 #: src/CreateUserModal.js:85
 msgid "Create user"
-msgstr "Opret bruger"
+msgstr ""
 
 #: src/translateCountryCode.js:171
 msgid "DE"
-msgstr "Tyskland"
+msgstr ""
 
 #: src/translateCountryCode.js:129
 msgid "DJ"
-msgstr "Djibouti"
+msgstr ""
 
 #: src/translateCountryCode.js:127
 msgid "DK"
-msgstr "Danmark"
+msgstr ""
 
 #: src/translateCountryCode.js:131
 msgid "DM"
-msgstr "Dominica"
+msgstr ""
 
 #: src/translateCountryCode.js:133
 msgid "DO"
-msgstr "Dominikanske Republik"
+msgstr ""
 
 #: src/translateCountryCode.js:13
 msgid "DZ"
-msgstr "Algeriet"
+msgstr ""
 
 #: src/translateCountryCode.js:135
 msgid "EC"
-msgstr "Ecuador"
+msgstr ""
 
 #: src/translateCountryCode.js:145
 msgid "EE"
-msgstr "Estland"
+msgstr ""
 
 #: src/translateCountryCode.js:137
 msgid "EG"
-msgstr "Egypten"
+msgstr ""
 
 #: src/translateCountryCode.js:497
 msgid "EH"
-msgstr "Vestsahara"
+msgstr ""
 
 #: src/translateCountryCode.js:143
 msgid "ER"
-msgstr "Eritrea"
+msgstr ""
 
 #: src/translateCountryCode.js:423
 msgid "ES"
-msgstr "Spanien"
+msgstr ""
 
 #: src/translateCountryCode.js:147
 msgid "ET"
-msgstr "Etiopien"
+msgstr ""
 
 #: src/AddJidCode.js:33
 msgid "Eurasia Scout Region"
-msgstr "Eurasia spejderregion"
+msgstr ""
 
 #: src/AddJidCode.js:35
 msgid "European Scout Region"
-msgstr "Den europæiske spejderregion"
+msgstr ""
 
 #: src/translateCountryCode.js:155
 msgid "FI"
-msgstr "Finland"
+msgstr ""
 
 #: src/translateCountryCode.js:153
 msgid "FJ"
-msgstr "Fiji"
+msgstr ""
 
 #: src/translateCountryCode.js:149
 msgid "FK"
-msgstr "Falklandsøerne"
+msgstr ""
 
 #: src/translateCountryCode.js:295
 msgid "FM"
-msgstr "Mikronesien"
+msgstr ""
 
 #: src/translateCountryCode.js:151
 msgid "FO"
-msgstr "Færøerne"
+msgstr ""
 
 #: src/translateCountryCode.js:157
 msgid "FR"
-msgstr "Frankrig"
+msgstr ""
 
 #: src/translateCountryCode.js:165
 msgid "GA"
-msgstr "Gabon"
+msgstr ""
 
 #: src/translateCountryCode.js:475
 msgid "GB"
-msgstr "Storbritannien"
+msgstr ""
 
 #: src/translateCountryCode.js:181
 msgid "GD"
-msgstr "Grenada"
+msgstr ""
 
 #: src/translateCountryCode.js:169
 msgid "GE"
-msgstr "Georgien"
+msgstr ""
 
 #: src/translateCountryCode.js:159
 msgid "GF"
-msgstr "Fransk Guyana"
+msgstr ""
 
 #: src/translateCountryCode.js:189
 msgid "GG"
-msgstr "Guernsey"
+msgstr ""
 
 #: src/translateCountryCode.js:173
 msgid "GH"
-msgstr "Ghana"
+msgstr ""
 
 #: src/translateCountryCode.js:175
 msgid "GI"
-msgstr "Gibraltar"
+msgstr ""
 
 #: src/translateCountryCode.js:179
 msgid "GL"
-msgstr "Grønland"
+msgstr ""
 
 #: src/translateCountryCode.js:167
 msgid "GM"
-msgstr "Gambia"
+msgstr ""
 
 #: src/translateCountryCode.js:191
 msgid "GN"
-msgstr "Guinea"
+msgstr ""
 
 #: src/translateCountryCode.js:183
 msgid "GP"
-msgstr "Guadeloupe"
+msgstr ""
 
 #: src/translateCountryCode.js:141
 msgid "GQ"
-msgstr "Ækvatorialguinea"
+msgstr ""
 
 #: src/translateCountryCode.js:177
 msgid "GR"
-msgstr "Grækenland"
+msgstr ""
 
 #: src/translateCountryCode.js:419
 msgid "GS"
-msgstr "Sydgeorgien og Sydsandwichøerne"
+msgstr ""
 
 #: src/translateCountryCode.js:187
 msgid "GT"
-msgstr "Guatemala"
+msgstr ""
 
 #: src/translateCountryCode.js:185
 msgid "GU"
-msgstr "Guam"
+msgstr ""
 
 #: src/translateCountryCode.js:193
 msgid "GW"
-msgstr "Guinea-Bissau"
+msgstr ""
 
 #: src/translateCountryCode.js:195
 msgid "GY"
-msgstr "Guyana"
+msgstr ""
 
 #: src/translateCountryCode.js:205
 msgid "HK"
-msgstr "Hongkong"
+msgstr ""
 
 #: src/translateCountryCode.js:199
 msgid "HM"
-msgstr "Heard- og McDonaldøerne"
+msgstr ""
 
 #: src/translateCountryCode.js:203
 msgid "HN"
-msgstr "Honduras"
+msgstr ""
 
 #: src/translateCountryCode.js:117
 msgid "HR"
-msgstr "Kroatien"
+msgstr ""
 
 #: src/translateCountryCode.js:197
 msgid "HT"
-msgstr "Haiti"
+msgstr ""
 
 #: src/translateCountryCode.js:207
 msgid "HU"
-msgstr "Ungarn"
+msgstr ""
 
 #: src/translateCountryCode.js:213
 msgid "ID"
-msgstr "Indonesien"
+msgstr ""
 
 #: src/translateCountryCode.js:219
 msgid "IE"
-msgstr "Irland"
+msgstr ""
 
 #: src/translateCountryCode.js:223
 msgid "IL"
-msgstr "Israel"
+msgstr ""
 
 #: src/translateCountryCode.js:221
 msgid "IM"
-msgstr "Isle of Man"
+msgstr ""
 
 #: src/translateCountryCode.js:211
 msgid "IN"
-msgstr "Indien"
+msgstr ""
 
 #: src/translateCountryCode.js:71
 msgid "IO"
-msgstr "Britisk territorium i det Indiske Ocean"
+msgstr ""
 
 #: src/translateCountryCode.js:217
 msgid "IQ"
-msgstr "Irak"
+msgstr ""
 
 #: src/translateCountryCode.js:215
 msgid "IR"
-msgstr "Iran"
+msgstr ""
 
 #: src/translateCountryCode.js:209
 msgid "IS"
-msgstr "Island"
+msgstr ""
 
 #: src/translateCountryCode.js:225
 msgid "IT"
-msgstr "Italien"
+msgstr ""
 
 #: src/LoginModal.js:63
 msgid "If you do not have a user yet, click here:"
-msgstr "Hvis du ikke har en bruger endnu, klik her:"
+msgstr ""
 
 #: src/AddJidCode.js:37
 msgid "Interamerican Scout Region"
-msgstr "Interamerikanske spejderregion"
+msgstr ""
 
 #: src/translateCountryCode.js:231
 msgid "JE"
-msgstr "Jersey"
+msgstr ""
 
 #: src/AddJidCode.js:151
 msgid "JID Code"
-msgstr "JID Kode"
+msgstr ""
 
 #: src/translateCountryCode.js:227
 msgid "JM"
-msgstr "Jamaica"
+msgstr ""
 
 #: src/translateCountryCode.js:233
 msgid "JO"
-msgstr "Jordan"
+msgstr ""
 
 #: src/translateCountryCode.js:229
 msgid "JP"
-msgstr "Japan"
+msgstr ""
 
 #: src/translateCountryCode.js:237
 msgid "KE"
-msgstr "Kenya"
+msgstr ""
 
 #: src/translateCountryCode.js:247
 msgid "KG"
-msgstr "Kirgisistan"
+msgstr ""
 
 #: src/translateCountryCode.js:81
 msgid "KH"
-msgstr "Cambodja"
+msgstr ""
 
 #: src/translateCountryCode.js:239
 msgid "KI"
-msgstr "Kiribati"
+msgstr ""
 
 #: src/translateCountryCode.js:105
 msgid "KM"
-msgstr "Comorerne"
+msgstr ""
 
 #: src/translateCountryCode.js:379
 msgid "KN"
-msgstr "Skt. Kitts og Nevis"
+msgstr ""
 
 #: src/translateCountryCode.js:241
 msgid "KP"
-msgstr "Nordkorea"
+msgstr ""
 
 #: src/translateCountryCode.js:243
 msgid "KR"
-msgstr "Sydkorea"
+msgstr ""
 
 #: src/translateCountryCode.js:245
 msgid "KW"
-msgstr "Kuwait"
+msgstr ""
 
 #: src/translateCountryCode.js:89
 msgid "KY"
-msgstr "Caymanøerne"
+msgstr ""
 
 #: src/translateCountryCode.js:235
 msgid "KZ"
-msgstr "Kasakhstan"
+msgstr ""
 
 #: src/translateCountryCode.js:249
 msgid "LA"
-msgstr "Laos"
+msgstr ""
 
 #: src/translateCountryCode.js:253
 msgid "LB"
-msgstr "Libanon"
+msgstr ""
 
 #: src/translateCountryCode.js:381
 msgid "LC"
-msgstr "Skt. Lucia"
+msgstr ""
 
 #: src/translateCountryCode.js:261
 msgid "LI"
-msgstr "Liechtenstein"
+msgstr ""
 
 #: src/translateCountryCode.js:425
 msgid "LK"
-msgstr "Sri Lanka"
+msgstr ""
 
 #: src/translateCountryCode.js:257
 msgid "LR"
-msgstr "Liberia"
+msgstr ""
 
 #: src/translateCountryCode.js:255
 msgid "LS"
-msgstr "Lesotho"
+msgstr ""
 
 #: src/translateCountryCode.js:263
 msgid "LT"
-msgstr "Litauen"
+msgstr ""
 
 #: src/translateCountryCode.js:265
 msgid "LU"
-msgstr "Luxembourg"
+msgstr ""
 
 #: src/translateCountryCode.js:251
 msgid "LV"
-msgstr "Letland"
+msgstr ""
 
 #: src/translateCountryCode.js:259
 msgid "LY"
-msgstr "Libyen"
+msgstr ""
 
 #: src/App.js:125
 msgid "Loading"
@@ -639,155 +641,155 @@ msgstr "Indlæser"
 #: src/LoginModal.js:74
 #: src/LoginModal.js:85
 msgid "Login"
-msgstr "Log ind"
+msgstr ""
 
 #: src/LoginModal.js:39
 msgid "Login to submit JID codes."
-msgstr "Log ind for at indsende JID koder"
+msgstr ""
 
 #: src/UserButton.js:63
 msgid "Logout"
-msgstr "Log ud"
+msgstr ""
 
 #: src/translateCountryCode.js:307
 msgid "MA"
-msgstr "Marokko"
+msgstr ""
 
 #: src/translateCountryCode.js:299
 msgid "MC"
-msgstr "Monaco"
+msgstr ""
 
 #: src/translateCountryCode.js:297
 msgid "MD"
-msgstr "Moldova"
+msgstr ""
 
 #: src/translateCountryCode.js:303
 msgid "ME"
-msgstr "Montenegro"
+msgstr ""
 
 #: src/translateCountryCode.js:383
 msgid "MF"
-msgstr "St. Martin (FR)"
+msgstr ""
 
 #: src/translateCountryCode.js:271
 msgid "MG"
-msgstr "Madagaskar"
+msgstr ""
 
 #: src/translateCountryCode.js:283
 msgid "MH"
-msgstr "Marshalløerne"
+msgstr ""
 
 #: src/translateCountryCode.js:269
 msgid "MK"
-msgstr "Nordmakedonien"
+msgstr ""
 
 #: src/translateCountryCode.js:279
 msgid "ML"
-msgstr "Mali"
+msgstr ""
 
 #: src/translateCountryCode.js:311
 msgid "MM"
-msgstr "Myanmar"
+msgstr ""
 
 #: src/translateCountryCode.js:301
 msgid "MN"
-msgstr "Mongoliet"
+msgstr ""
 
 #: src/translateCountryCode.js:267
 msgid "MO"
-msgstr "Macao"
+msgstr ""
 
 #: src/translateCountryCode.js:335
 msgid "MP"
-msgstr "Nordmarianerne"
+msgstr ""
 
 #: src/translateCountryCode.js:285
 msgid "MQ"
-msgstr "Martinique"
+msgstr ""
 
 #: src/translateCountryCode.js:287
 msgid "MR"
-msgstr "Mauretanien"
+msgstr ""
 
 #: src/translateCountryCode.js:305
 msgid "MS"
-msgstr "Montserrat"
+msgstr ""
 
 #: src/translateCountryCode.js:281
 msgid "MT"
-msgstr "Malta"
+msgstr ""
 
 #: src/translateCountryCode.js:289
 msgid "MU"
-msgstr "Mauritius"
+msgstr ""
 
 #: src/translateCountryCode.js:277
 msgid "MV"
-msgstr "Maldiverne"
+msgstr ""
 
 #: src/translateCountryCode.js:273
 msgid "MW"
-msgstr "Malawi"
+msgstr ""
 
 #: src/translateCountryCode.js:293
 msgid "MX"
-msgstr "Mexico"
+msgstr ""
 
 #: src/translateCountryCode.js:275
 msgid "MY"
-msgstr "Malaysia"
+msgstr ""
 
 #: src/translateCountryCode.js:309
 msgid "MZ"
-msgstr "Mozambique"
+msgstr ""
 
 #: src/translateCountryCode.js:313
 msgid "NA"
-msgstr "Namibia"
+msgstr ""
 
 #: src/translateCountryCode.js:321
 msgid "NC"
-msgstr "Ny Kaledonien"
+msgstr ""
 
 #: src/translateCountryCode.js:327
 msgid "NE"
-msgstr "Niger"
+msgstr ""
 
 #: src/translateCountryCode.js:333
 msgid "NF"
-msgstr "Norfolkøen"
+msgstr ""
 
 #: src/translateCountryCode.js:329
 msgid "NG"
-msgstr "Nigeria"
+msgstr ""
 
 #: src/translateCountryCode.js:325
 msgid "NI"
-msgstr "Nicaragua"
+msgstr ""
 
 #: src/translateCountryCode.js:319
 msgid "NL"
-msgstr "Nederlandene"
+msgstr ""
 
 #: src/translateCountryCode.js:337
 msgid "NO"
-msgstr "Norge"
+msgstr ""
 
 #: src/translateCountryCode.js:317
 msgid "NP"
-msgstr "Nepal"
+msgstr ""
 
 #: src/translateCountryCode.js:315
 msgid "NR"
-msgstr "Nauru"
+msgstr ""
 
 #: src/translateCountryCode.js:331
 msgid "NU"
-msgstr "Niue"
+msgstr ""
 
 #: src/translateCountryCode.js:323
 msgid "NZ"
-msgstr "New Zealand"
+msgstr ""
 
 #: src/App.js:190
 #: src/CreateUserModal.js:41
@@ -796,176 +798,176 @@ msgstr "Navn"
 
 #: src/translateCountryCode.js:339
 msgid "OM"
-msgstr "Oman"
+msgstr ""
 
 #: src/translateCountryCode.js:347
 msgid "PA"
-msgstr "Panama"
+msgstr ""
 
 #: src/translateCountryCode.js:353
 msgid "PE"
-msgstr "Peru"
+msgstr ""
 
 #: src/translateCountryCode.js:161
 msgid "PF"
-msgstr "Fransk Polynesien"
+msgstr ""
 
 #: src/translateCountryCode.js:349
 msgid "PG"
-msgstr "Papua Ny Guinea"
+msgstr ""
 
 #: src/translateCountryCode.js:355
 msgid "PH"
-msgstr "Filippinerne"
+msgstr ""
 
 #: src/translateCountryCode.js:341
 msgid "PK"
-msgstr "Pakistan"
+msgstr ""
 
 #: src/translateCountryCode.js:359
 msgid "PL"
-msgstr "Polen"
+msgstr ""
 
 #: src/translateCountryCode.js:385
 msgid "PM"
-msgstr "Skt. Pierre og Miquelon"
+msgstr ""
 
 #: src/translateCountryCode.js:357
 msgid "PN"
-msgstr "Pitcairn"
+msgstr ""
 
 #: src/translateCountryCode.js:363
 msgid "PR"
-msgstr "Puerto Rico"
+msgstr ""
 
 #: src/translateCountryCode.js:345
 msgid "PS"
-msgstr "Palæstina"
+msgstr ""
 
 #: src/translateCountryCode.js:361
 msgid "PT"
-msgstr "Portugal"
+msgstr ""
 
 #: src/translateCountryCode.js:343
 msgid "PW"
-msgstr "Palau"
+msgstr ""
 
 #: src/translateCountryCode.js:351
 msgid "PY"
-msgstr "Paraguay"
+msgstr ""
 
 #: src/CreateUserModal.js:59
 #: src/LoginModal.js:54
 msgid "Password"
-msgstr "Kodeord"
+msgstr ""
 
 #: src/translateCountryCode.js:365
 msgid "QA"
-msgstr "Qatar"
+msgstr ""
 
 #: src/translateCountryCode.js:367
 msgid "RE"
-msgstr "Reunion"
+msgstr ""
 
 #: src/translateCountryCode.js:369
 msgid "RO"
-msgstr "Rumænien"
+msgstr ""
 
 #: src/translateCountryCode.js:399
 msgid "RS"
-msgstr "Serbien"
+msgstr ""
 
 #: src/translateCountryCode.js:371
 msgid "RU"
-msgstr "Rusland"
+msgstr ""
 
 #: src/translateCountryCode.js:373
 msgid "RW"
-msgstr "Rwanda"
+msgstr ""
 
 #: src/translateCountryCode.js:395
 msgid "SA"
-msgstr "Saudi-Arabien"
+msgstr ""
 
 #: src/translateCountryCode.js:413
 msgid "SB"
-msgstr "Salomonøerne"
+msgstr ""
 
 #: src/translateCountryCode.js:401
 msgid "SC"
-msgstr "Seychellerne"
+msgstr ""
 
 #: src/translateCountryCode.js:427
 msgid "SD"
-msgstr "Sudan"
+msgstr ""
 
 #: src/translateCountryCode.js:435
 msgid "SE"
-msgstr "Sverige"
+msgstr ""
 
 #: src/translateCountryCode.js:405
 msgid "SG"
-msgstr "Singapore"
+msgstr ""
 
 #: src/translateCountryCode.js:377
 msgid "SH"
-msgstr "Skt. Helena"
+msgstr ""
 
 #: src/translateCountryCode.js:411
 msgid "SI"
-msgstr "Slovenien"
+msgstr ""
 
 #: src/translateCountryCode.js:431
 msgid "SJ"
-msgstr "Svalbard og Jan Mayen"
+msgstr ""
 
 #: src/translateCountryCode.js:409
 msgid "SK"
-msgstr "Slovakiet"
+msgstr ""
 
 #: src/translateCountryCode.js:403
 msgid "SL"
-msgstr "Sierra Leone"
+msgstr ""
 
 #: src/translateCountryCode.js:391
 msgid "SM"
-msgstr "San Marino"
+msgstr ""
 
 #: src/translateCountryCode.js:397
 msgid "SN"
-msgstr "Senegal"
+msgstr ""
 
 #: src/translateCountryCode.js:415
 msgid "SO"
-msgstr "Somalia"
+msgstr ""
 
 #: src/translateCountryCode.js:429
 msgid "SR"
-msgstr "Surinam"
+msgstr ""
 
 #: src/translateCountryCode.js:421
 msgid "SS"
-msgstr "Sydsudan"
+msgstr ""
 
 #: src/translateCountryCode.js:393
 msgid "ST"
-msgstr "Sao Tome og Principe"
+msgstr ""
 
 #: src/translateCountryCode.js:139
 msgid "SV"
-msgstr "El Salvador"
+msgstr ""
 
 #: src/translateCountryCode.js:407
 msgid "SX"
-msgstr "Skt. Martin (NL)"
+msgstr ""
 
 #: src/translateCountryCode.js:439
 msgid "SY"
-msgstr "Syrien"
+msgstr ""
 
 #: src/translateCountryCode.js:433
 msgid "SZ"
-msgstr "Swaziland"
+msgstr ""
 
 #: src/App.js:186
 msgid "Scoreboard"
@@ -977,67 +979,67 @@ msgstr ""
 
 #: src/translateCountryCode.js:465
 msgid "TC"
-msgstr "Turks- og Caicosøerne"
+msgstr ""
 
 #: src/translateCountryCode.js:93
 msgid "TD"
-msgstr "Tchad"
+msgstr ""
 
 #: src/translateCountryCode.js:163
 msgid "TF"
-msgstr "Franske Sydlige og Antarktiske Territorier"
+msgstr ""
 
 #: src/translateCountryCode.js:451
 msgid "TG"
-msgstr "Togo"
+msgstr ""
 
 #: src/translateCountryCode.js:447
 msgid "TH"
-msgstr "Thailand"
+msgstr ""
 
 #: src/translateCountryCode.js:443
 msgid "TJ"
-msgstr "Tadsjikistan"
+msgstr ""
 
 #: src/translateCountryCode.js:453
 msgid "TK"
-msgstr "Tokelau"
+msgstr ""
 
 #: src/translateCountryCode.js:449
 msgid "TL"
-msgstr "Østtimor"
+msgstr ""
 
 #: src/translateCountryCode.js:463
 msgid "TM"
-msgstr "Turkmenistan"
+msgstr ""
 
 #: src/translateCountryCode.js:459
 msgid "TN"
-msgstr "Tunesien"
+msgstr ""
 
 #: src/translateCountryCode.js:455
 msgid "TO"
-msgstr "Tonga"
+msgstr ""
 
 #: src/translateCountryCode.js:461
 msgid "TR"
-msgstr "Tyrkiet"
+msgstr ""
 
 #: src/translateCountryCode.js:457
 msgid "TT"
-msgstr "Trinidad og Tobago"
+msgstr ""
 
 #: src/translateCountryCode.js:467
 msgid "TV"
-msgstr "Tuvalu"
+msgstr ""
 
 #: src/translateCountryCode.js:441
 msgid "TW"
-msgstr "Taiwan"
+msgstr ""
 
 #: src/translateCountryCode.js:445
 msgid "TZ"
-msgstr "Tanzania"
+msgstr ""
 
 #: src/App.js:131
 msgid "Total number of JID codes: {0}"
@@ -1045,27 +1047,27 @@ msgstr "Total antal JID koder: {0}"
 
 #: src/translateCountryCode.js:471
 msgid "UA"
-msgstr "Ukraine"
+msgstr ""
 
 #: src/translateCountryCode.js:469
 msgid "UG"
-msgstr "Uganda"
+msgstr ""
 
 #: src/translateCountryCode.js:479
 msgid "UM"
-msgstr "USA's mindre øbesiddelser"
+msgstr ""
 
 #: src/translateCountryCode.js:477
 msgid "US"
-msgstr "USA"
+msgstr ""
 
 #: src/translateCountryCode.js:481
 msgid "UY"
-msgstr "Uruguay"
+msgstr ""
 
 #: src/translateCountryCode.js:483
 msgid "UZ"
-msgstr "Usbekistan"
+msgstr ""
 
 #: src/App.js:135
 msgid "Unique JID codes: {0}"
@@ -1083,68 +1085,69 @@ msgstr "Unikke lande: {0}"
 #: src/CreateUserModal.js:50
 #: src/LoginModal.js:45
 msgid "Username"
-msgstr "Brugernavn"
+msgstr ""
 
 #: src/translateCountryCode.js:201
 msgid "VA"
-msgstr "Vatikanstaten"
+msgstr ""
 
 #: src/translateCountryCode.js:387
 msgid "VC"
-msgstr "Skt. Vincent og Grenadinerne"
+msgstr ""
 
 #: src/translateCountryCode.js:487
 msgid "VE"
-msgstr "Venezuela"
+msgstr ""
 
 #: src/translateCountryCode.js:491
 msgid "VG"
-msgstr "Britiske Jomfruøer"
+msgstr ""
 
 #: src/translateCountryCode.js:493
 msgid "VI"
-msgstr "Amerikanske Jomfruøer"
+msgstr ""
 
 #: src/translateCountryCode.js:489
 msgid "VN"
-msgstr "Vietnam"
+msgstr ""
 
 #: src/translateCountryCode.js:485
 msgid "VU"
-msgstr "Vanuatu"
+msgstr ""
 
 #: src/translateCountryCode.js:495
 msgid "WF"
-msgstr "Wallis og Futuna"
+msgstr ""
 
 #: src/translateCountryCode.js:389
 msgid "WS"
-msgstr "Samoa"
+msgstr ""
 
 #: src/translateCountryCode.js:499
 msgid "YE"
-msgstr "Yemen"
+msgstr ""
 
 #: src/translateCountryCode.js:291
 msgid "YT"
-msgstr "Mayotte"
+msgstr ""
 
 #: src/translateCountryCode.js:417
 msgid "ZA"
-msgstr "Sydafrika"
+msgstr ""
 
 #: src/translateCountryCode.js:501
 msgid "ZM"
-msgstr "Zambia"
+msgstr ""
 
 #: src/translateCountryCode.js:503
 msgid "ZW"
-msgstr "Zimbabwe"
+msgstr ""
 
 #: src/AddJidCode.js:48
 msgid "error.addJid.duplicate"
-msgstr "Du har allerede tilføjet koden"
+msgstr ""
 
 #: src/AddJidCode.js:166
 msgid "error.invalidCountryForRegion"
-msgstr "JID koden ser forkert ud. Landet {countryCode} ({translatedCountryCode}) tilhører ikke regionen {region} ({translatedRegion})"
+msgstr ""
+
