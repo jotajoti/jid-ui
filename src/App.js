@@ -57,6 +57,8 @@ const styles = {
     }
 };
 
+console.log('version 1')
+
 export const App = withStyles(styles)(props => {
     const {classes} = props;
 
