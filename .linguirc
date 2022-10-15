@@ -3,7 +3,5 @@
   "srcPathDirs": ["src/"],
   "format": "po",
   "sourceLocale": "en",
-  "fallbackLocales": {
-    "default": "da"
-  }
+  "fallbackLocale": "da"
 }

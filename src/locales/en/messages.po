@@ -273,12 +273,12 @@ msgstr "Cancel"
 msgid "Control character"
 msgstr "Control character"
 
-#: src/App.js:191
-#: src/App.js:212
+#: src/App.js:193
+#: src/App.js:214
 msgid "Countries"
 msgstr "Countries"
 
-#: src/App.js:216
+#: src/App.js:218
 msgid "Country name"
 msgstr "Country name"
 
@@ -628,7 +628,7 @@ msgstr "Latvia"
 msgid "LY"
 msgstr "Libya"
 
-#: src/App.js:125
+#: src/App.js:127
 msgid "Loading"
 msgstr "Loading"
 
@@ -786,7 +786,7 @@ msgstr "Niue"
 msgid "NZ"
 msgstr "New Zealand"
 
-#: src/App.js:190
+#: src/App.js:192
 #: src/CreateUserModal.js:41
 msgid "Name"
 msgstr "Name"
@@ -964,7 +964,7 @@ msgstr "Syrian Arab Republic"
 msgid "SZ"
 msgstr "Swaziland"
 
-#: src/App.js:186
+#: src/App.js:188
 msgid "Scoreboard"
 msgstr "Scoreboard"
 
@@ -1036,7 +1036,7 @@ msgstr "Taiwan, Province of China"
 msgid "TZ"
 msgstr "Tanzania, United Republic of"
 
-#: src/App.js:131
+#: src/App.js:133
 msgid "Total number of JID codes: {0}"
 msgstr "Total number of JID codes: {0}"
 
@@ -1064,16 +1064,16 @@ msgstr "Uruguay"
 msgid "UZ"
 msgstr "Uzbekistan"
 
-#: src/App.js:135
+#: src/App.js:137
 msgid "Unique JID codes: {0}"
 msgstr "Unique JID codes: {0}"
 
-#: src/App.js:192
-#: src/App.js:217
+#: src/App.js:194
+#: src/App.js:219
 msgid "Unique codes"
 msgstr "Unique codes"
 
-#: src/App.js:139
+#: src/App.js:141
 msgid "Unique countries: {0}"
 msgstr "Unique countries: {0}"
 
