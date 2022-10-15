@@ -1,0 +1,2243 @@
+{
+  "AF": {
+    "defaults": "Afghanistan",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        7
+      ]
+    ]
+  },
+  "AX": {
+    "defaults": "\\u00c5land Islands",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        9
+      ]
+    ]
+  },
+  "AL": {
+    "defaults": "Albania",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        11
+      ]
+    ]
+  },
+  "DZ": {
+    "defaults": "Algeria",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        13
+      ]
+    ]
+  },
+  "AS": {
+    "defaults": "American Samoa",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        15
+      ]
+    ]
+  },
+  "AD": {
+    "defaults": "Andorra",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        17
+      ]
+    ]
+  },
+  "AO": {
+    "defaults": "Angola",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        19
+      ]
+    ]
+  },
+  "AI": {
+    "defaults": "Anguilla",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        21
+      ]
+    ]
+  },
+  "AQ": {
+    "defaults": "Antarctica",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        23
+      ]
+    ]
+  },
+  "AG": {
+    "defaults": "Antigua and Barbuda",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        25
+      ]
+    ]
+  },
+  "AR": {
+    "defaults": "Argentina",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        27
+      ]
+    ]
+  },
+  "AM": {
+    "defaults": "Armenia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        29
+      ]
+    ]
+  },
+  "AW": {
+    "defaults": "Aruba",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        31
+      ]
+    ]
+  },
+  "AU": {
+    "defaults": "Australia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        33
+      ]
+    ]
+  },
+  "AT": {
+    "defaults": "Austria",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        35
+      ]
+    ]
+  },
+  "AZ": {
+    "defaults": "Azerbaijan",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        37
+      ]
+    ]
+  },
+  "BS": {
+    "defaults": "Bahamas",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        39
+      ]
+    ]
+  },
+  "BH": {
+    "defaults": "Bahrain",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        41
+      ]
+    ]
+  },
+  "BD": {
+    "defaults": "Bangladesh",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        43
+      ]
+    ]
+  },
+  "BB": {
+    "defaults": "Barbados",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        45
+      ]
+    ]
+  },
+  "BY": {
+    "defaults": "Belarus",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        47
+      ]
+    ]
+  },
+  "BE": {
+    "defaults": "Belgium",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        49
+      ]
+    ]
+  },
+  "BZ": {
+    "defaults": "Belize",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        51
+      ]
+    ]
+  },
+  "BJ": {
+    "defaults": "Benin",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        53
+      ]
+    ]
+  },
+  "BM": {
+    "defaults": "Bermuda",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        55
+      ]
+    ]
+  },
+  "BT": {
+    "defaults": "Bhutan",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        57
+      ]
+    ]
+  },
+  "BO": {
+    "defaults": "Bolivia, Plurinational State of",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        59
+      ]
+    ]
+  },
+  "BQ": {
+    "defaults": "Bonaire, Sint Eustatius and Saba",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        61
+      ]
+    ]
+  },
+  "BA": {
+    "defaults": "Bosnia and Herzegovina",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        63
+      ]
+    ]
+  },
+  "BW": {
+    "defaults": "Botswana",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        65
+      ]
+    ]
+  },
+  "BV": {
+    "defaults": "Bouvet Island",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        67
+      ]
+    ]
+  },
+  "BR": {
+    "defaults": "Brazil",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        69
+      ]
+    ]
+  },
+  "IO": {
+    "defaults": "British Indian Ocean Territory",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        71
+      ]
+    ]
+  },
+  "BN": {
+    "defaults": "Brunei Darussalam",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        73
+      ]
+    ]
+  },
+  "BG": {
+    "defaults": "Bulgaria",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        75
+      ]
+    ]
+  },
+  "BF": {
+    "defaults": "Burkina Faso",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        77
+      ]
+    ]
+  },
+  "BI": {
+    "defaults": "Burundi",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        79
+      ]
+    ]
+  },
+  "KH": {
+    "defaults": "Cambodia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        81
+      ]
+    ]
+  },
+  "CM": {
+    "defaults": "Cameroon",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        83
+      ]
+    ]
+  },
+  "CA": {
+    "defaults": "Canada",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        85
+      ]
+    ]
+  },
+  "CV": {
+    "defaults": "Cape Verde",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        87
+      ]
+    ]
+  },
+  "KY": {
+    "defaults": "Cayman Islands",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        89
+      ]
+    ]
+  },
+  "CF": {
+    "defaults": "Central African Republic",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        91
+      ]
+    ]
+  },
+  "TD": {
+    "defaults": "Chad",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        93
+      ]
+    ]
+  },
+  "CL": {
+    "defaults": "Chile",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        95
+      ]
+    ]
+  },
+  "CN": {
+    "defaults": "China",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        97
+      ]
+    ]
+  },
+  "CX": {
+    "defaults": "Christmas Island",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        99
+      ]
+    ]
+  },
+  "CC": {
+    "defaults": "Cocos (Keeling) Islands",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        101
+      ]
+    ]
+  },
+  "CO": {
+    "defaults": "Colombia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        103
+      ]
+    ]
+  },
+  "KM": {
+    "defaults": "Comoros",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        105
+      ]
+    ]
+  },
+  "CG": {
+    "defaults": "Congo",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        107
+      ]
+    ]
+  },
+  "CD": {
+    "defaults": "Congo, the Democratic Republic of the",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        109
+      ]
+    ]
+  },
+  "CK": {
+    "defaults": "Cook Islands",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        111
+      ]
+    ]
+  },
+  "CR": {
+    "defaults": "Costa Rica",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        113
+      ]
+    ]
+  },
+  "CI": {
+    "defaults": "C\\u00f4te d'Ivoire",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        115
+      ]
+    ]
+  },
+  "HR": {
+    "defaults": "Croatia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        117
+      ]
+    ]
+  },
+  "CU": {
+    "defaults": "Cuba",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        119
+      ]
+    ]
+  },
+  "CW": {
+    "defaults": "Cura\\u00e7ao",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        121
+      ]
+    ]
+  },
+  "CY": {
+    "defaults": "Cyprus",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        123
+      ]
+    ]
+  },
+  "CZ": {
+    "defaults": "Czech Republic",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        125
+      ]
+    ]
+  },
+  "DK": {
+    "defaults": "Denmark",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        127
+      ]
+    ]
+  },
+  "DJ": {
+    "defaults": "Djibouti",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        129
+      ]
+    ]
+  },
+  "DM": {
+    "defaults": "Dominica",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        131
+      ]
+    ]
+  },
+  "DO": {
+    "defaults": "Dominican Republic",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        133
+      ]
+    ]
+  },
+  "EC": {
+    "defaults": "Ecuador",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        135
+      ]
+    ]
+  },
+  "EG": {
+    "defaults": "Egypt",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        137
+      ]
+    ]
+  },
+  "SV": {
+    "defaults": "El Salvador",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        139
+      ]
+    ]
+  },
+  "GQ": {
+    "defaults": "Equatorial Guinea",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        141
+      ]
+    ]
+  },
+  "ER": {
+    "defaults": "Eritrea",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        143
+      ]
+    ]
+  },
+  "EE": {
+    "defaults": "Estonia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        145
+      ]
+    ]
+  },
+  "ET": {
+    "defaults": "Ethiopia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        147
+      ]
+    ]
+  },
+  "FK": {
+    "defaults": "Falkland Islands (Malvinas)",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        149
+      ]
+    ]
+  },
+  "FO": {
+    "defaults": "Faroe Islands",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        151
+      ]
+    ]
+  },
+  "FJ": {
+    "defaults": "Fiji",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        153
+      ]
+    ]
+  },
+  "FI": {
+    "defaults": "Finland",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        155
+      ]
+    ]
+  },
+  "FR": {
+    "defaults": "France",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        157
+      ]
+    ]
+  },
+  "GF": {
+    "defaults": "French Guiana",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        159
+      ]
+    ]
+  },
+  "PF": {
+    "defaults": "French Polynesia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        161
+      ]
+    ]
+  },
+  "TF": {
+    "defaults": "French Southern Territories",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        163
+      ]
+    ]
+  },
+  "GA": {
+    "defaults": "Gabon",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        165
+      ]
+    ]
+  },
+  "GM": {
+    "defaults": "Gambia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        167
+      ]
+    ]
+  },
+  "GE": {
+    "defaults": "Georgia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        169
+      ]
+    ]
+  },
+  "DE": {
+    "defaults": "Germany",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        171
+      ]
+    ]
+  },
+  "GH": {
+    "defaults": "Ghana",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        173
+      ]
+    ]
+  },
+  "GI": {
+    "defaults": "Gibraltar",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        175
+      ]
+    ]
+  },
+  "GR": {
+    "defaults": "Greece",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        177
+      ]
+    ]
+  },
+  "GL": {
+    "defaults": "Greenland",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        179
+      ]
+    ]
+  },
+  "GD": {
+    "defaults": "Grenada",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        181
+      ]
+    ]
+  },
+  "GP": {
+    "defaults": "Guadeloupe",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        183
+      ]
+    ]
+  },
+  "GU": {
+    "defaults": "Guam",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        185
+      ]
+    ]
+  },
+  "GT": {
+    "defaults": "Guatemala",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        187
+      ]
+    ]
+  },
+  "GG": {
+    "defaults": "Guernsey",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        189
+      ]
+    ]
+  },
+  "GN": {
+    "defaults": "Guinea",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        191
+      ]
+    ]
+  },
+  "GW": {
+    "defaults": "Guinea-Bissau",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        193
+      ]
+    ]
+  },
+  "GY": {
+    "defaults": "Guyana",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        195
+      ]
+    ]
+  },
+  "HT": {
+    "defaults": "Haiti",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        197
+      ]
+    ]
+  },
+  "HM": {
+    "defaults": "Heard Island and McDonald Islands",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        199
+      ]
+    ]
+  },
+  "VA": {
+    "defaults": "Holy See (Vatican City State)",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        201
+      ]
+    ]
+  },
+  "HN": {
+    "defaults": "Honduras",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        203
+      ]
+    ]
+  },
+  "HK": {
+    "defaults": "Hong Kong",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        205
+      ]
+    ]
+  },
+  "HU": {
+    "defaults": "Hungary",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        207
+      ]
+    ]
+  },
+  "IS": {
+    "defaults": "Iceland",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        209
+      ]
+    ]
+  },
+  "IN": {
+    "defaults": "India",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        211
+      ]
+    ]
+  },
+  "ID": {
+    "defaults": "Indonesia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        213
+      ]
+    ]
+  },
+  "IR": {
+    "defaults": "Iran, Islamic Republic of",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        215
+      ]
+    ]
+  },
+  "IQ": {
+    "defaults": "Iraq",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        217
+      ]
+    ]
+  },
+  "IE": {
+    "defaults": "Ireland",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        219
+      ]
+    ]
+  },
+  "IM": {
+    "defaults": "Isle of Man",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        221
+      ]
+    ]
+  },
+  "IL": {
+    "defaults": "Israel",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        223
+      ]
+    ]
+  },
+  "IT": {
+    "defaults": "Italy",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        225
+      ]
+    ]
+  },
+  "JM": {
+    "defaults": "Jamaica",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        227
+      ]
+    ]
+  },
+  "JP": {
+    "defaults": "Japan",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        229
+      ]
+    ]
+  },
+  "JE": {
+    "defaults": "Jersey",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        231
+      ]
+    ]
+  },
+  "JO": {
+    "defaults": "Jordan",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        233
+      ]
+    ]
+  },
+  "KZ": {
+    "defaults": "Kazakhstan",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        235
+      ]
+    ]
+  },
+  "KE": {
+    "defaults": "Kenya",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        237
+      ]
+    ]
+  },
+  "KI": {
+    "defaults": "Kiribati",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        239
+      ]
+    ]
+  },
+  "KP": {
+    "defaults": "Korea, Democratic People's Republic of",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        241
+      ]
+    ]
+  },
+  "KR": {
+    "defaults": "Korea, Republic of",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        243
+      ]
+    ]
+  },
+  "KW": {
+    "defaults": "Kuwait",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        245
+      ]
+    ]
+  },
+  "KG": {
+    "defaults": "Kyrgyzstan",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        247
+      ]
+    ]
+  },
+  "LA": {
+    "defaults": "Lao People's Democratic Republic",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        249
+      ]
+    ]
+  },
+  "LV": {
+    "defaults": "Latvia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        251
+      ]
+    ]
+  },
+  "LB": {
+    "defaults": "Lebanon",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        253
+      ]
+    ]
+  },
+  "LS": {
+    "defaults": "Lesotho",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        255
+      ]
+    ]
+  },
+  "LR": {
+    "defaults": "Liberia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        257
+      ]
+    ]
+  },
+  "LY": {
+    "defaults": "Libya",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        259
+      ]
+    ]
+  },
+  "LI": {
+    "defaults": "Liechtenstein",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        261
+      ]
+    ]
+  },
+  "LT": {
+    "defaults": "Lithuania",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        263
+      ]
+    ]
+  },
+  "LU": {
+    "defaults": "Luxembourg",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        265
+      ]
+    ]
+  },
+  "MO": {
+    "defaults": "Macao",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        267
+      ]
+    ]
+  },
+  "MK": {
+    "defaults": "Macedonia, the Former Yugoslav Republic of",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        269
+      ]
+    ]
+  },
+  "MG": {
+    "defaults": "Madagascar",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        271
+      ]
+    ]
+  },
+  "MW": {
+    "defaults": "Malawi",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        273
+      ]
+    ]
+  },
+  "MY": {
+    "defaults": "Malaysia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        275
+      ]
+    ]
+  },
+  "MV": {
+    "defaults": "Maldives",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        277
+      ]
+    ]
+  },
+  "ML": {
+    "defaults": "Mali",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        279
+      ]
+    ]
+  },
+  "MT": {
+    "defaults": "Malta",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        281
+      ]
+    ]
+  },
+  "MH": {
+    "defaults": "Marshall Islands",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        283
+      ]
+    ]
+  },
+  "MQ": {
+    "defaults": "Martinique",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        285
+      ]
+    ]
+  },
+  "MR": {
+    "defaults": "Mauritania",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        287
+      ]
+    ]
+  },
+  "MU": {
+    "defaults": "Mauritius",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        289
+      ]
+    ]
+  },
+  "YT": {
+    "defaults": "Mayotte",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        291
+      ]
+    ]
+  },
+  "MX": {
+    "defaults": "Mexico",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        293
+      ]
+    ]
+  },
+  "FM": {
+    "defaults": "Micronesia, Federated States of",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        295
+      ]
+    ]
+  },
+  "MD": {
+    "defaults": "Moldova, Republic of",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        297
+      ]
+    ]
+  },
+  "MC": {
+    "defaults": "Monaco",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        299
+      ]
+    ]
+  },
+  "MN": {
+    "defaults": "Mongolia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        301
+      ]
+    ]
+  },
+  "ME": {
+    "defaults": "Montenegro",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        303
+      ]
+    ]
+  },
+  "MS": {
+    "defaults": "Montserrat",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        305
+      ]
+    ]
+  },
+  "MA": {
+    "defaults": "Morocco",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        307
+      ]
+    ]
+  },
+  "MZ": {
+    "defaults": "Mozambique",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        309
+      ]
+    ]
+  },
+  "MM": {
+    "defaults": "Myanmar",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        311
+      ]
+    ]
+  },
+  "NA": {
+    "defaults": "Namibia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        313
+      ]
+    ]
+  },
+  "NR": {
+    "defaults": "Nauru",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        315
+      ]
+    ]
+  },
+  "NP": {
+    "defaults": "Nepal",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        317
+      ]
+    ]
+  },
+  "NL": {
+    "defaults": "Netherlands",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        319
+      ]
+    ]
+  },
+  "NC": {
+    "defaults": "New Caledonia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        321
+      ]
+    ]
+  },
+  "NZ": {
+    "defaults": "New Zealand",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        323
+      ]
+    ]
+  },
+  "NI": {
+    "defaults": "Nicaragua",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        325
+      ]
+    ]
+  },
+  "NE": {
+    "defaults": "Niger",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        327
+      ]
+    ]
+  },
+  "NG": {
+    "defaults": "Nigeria",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        329
+      ]
+    ]
+  },
+  "NU": {
+    "defaults": "Niue",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        331
+      ]
+    ]
+  },
+  "NF": {
+    "defaults": "Norfolk Island",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        333
+      ]
+    ]
+  },
+  "MP": {
+    "defaults": "Northern Mariana Islands",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        335
+      ]
+    ]
+  },
+  "NO": {
+    "defaults": "Norway",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        337
+      ]
+    ]
+  },
+  "OM": {
+    "defaults": "Oman",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        339
+      ]
+    ]
+  },
+  "PK": {
+    "defaults": "Pakistan",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        341
+      ]
+    ]
+  },
+  "PW": {
+    "defaults": "Palau",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        343
+      ]
+    ]
+  },
+  "PS": {
+    "defaults": "Palestine, State of",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        345
+      ]
+    ]
+  },
+  "PA": {
+    "defaults": "Panama",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        347
+      ]
+    ]
+  },
+  "PG": {
+    "defaults": "Papua New Guinea",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        349
+      ]
+    ]
+  },
+  "PY": {
+    "defaults": "Paraguay",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        351
+      ]
+    ]
+  },
+  "PE": {
+    "defaults": "Peru",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        353
+      ]
+    ]
+  },
+  "PH": {
+    "defaults": "Philippines",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        355
+      ]
+    ]
+  },
+  "PN": {
+    "defaults": "Pitcairn",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        357
+      ]
+    ]
+  },
+  "PL": {
+    "defaults": "Poland",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        359
+      ]
+    ]
+  },
+  "PT": {
+    "defaults": "Portugal",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        361
+      ]
+    ]
+  },
+  "PR": {
+    "defaults": "Puerto Rico",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        363
+      ]
+    ]
+  },
+  "QA": {
+    "defaults": "Qatar",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        365
+      ]
+    ]
+  },
+  "RE": {
+    "defaults": "R\\u00e9union",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        367
+      ]
+    ]
+  },
+  "RO": {
+    "defaults": "Romania",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        369
+      ]
+    ]
+  },
+  "RU": {
+    "defaults": "Russian Federation",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        371
+      ]
+    ]
+  },
+  "RW": {
+    "defaults": "Rwanda",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        373
+      ]
+    ]
+  },
+  "BL": {
+    "defaults": "Saint Barth\\u00e9lemy",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        375
+      ]
+    ]
+  },
+  "SH": {
+    "defaults": "Saint Helena, Ascension and Tristan da Cunha",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        377
+      ]
+    ]
+  },
+  "KN": {
+    "defaults": "Saint Kitts and Nevis",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        379
+      ]
+    ]
+  },
+  "LC": {
+    "defaults": "Saint Lucia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        381
+      ]
+    ]
+  },
+  "MF": {
+    "defaults": "Saint Martin (French part)",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        383
+      ]
+    ]
+  },
+  "PM": {
+    "defaults": "Saint Pierre and Miquelon",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        385
+      ]
+    ]
+  },
+  "VC": {
+    "defaults": "Saint Vincent and the Grenadines",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        387
+      ]
+    ]
+  },
+  "WS": {
+    "defaults": "Samoa",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        389
+      ]
+    ]
+  },
+  "SM": {
+    "defaults": "San Marino",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        391
+      ]
+    ]
+  },
+  "ST": {
+    "defaults": "Sao Tome and Principe",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        393
+      ]
+    ]
+  },
+  "SA": {
+    "defaults": "Saudi Arabia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        395
+      ]
+    ]
+  },
+  "SN": {
+    "defaults": "Senegal",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        397
+      ]
+    ]
+  },
+  "RS": {
+    "defaults": "Serbia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        399
+      ]
+    ]
+  },
+  "SC": {
+    "defaults": "Seychelles",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        401
+      ]
+    ]
+  },
+  "SL": {
+    "defaults": "Sierra Leone",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        403
+      ]
+    ]
+  },
+  "SG": {
+    "defaults": "Singapore",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        405
+      ]
+    ]
+  },
+  "SX": {
+    "defaults": "Sint Maarten (Dutch part)",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        407
+      ]
+    ]
+  },
+  "SK": {
+    "defaults": "Slovakia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        409
+      ]
+    ]
+  },
+  "SI": {
+    "defaults": "Slovenia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        411
+      ]
+    ]
+  },
+  "SB": {
+    "defaults": "Solomon Islands",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        413
+      ]
+    ]
+  },
+  "SO": {
+    "defaults": "Somalia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        415
+      ]
+    ]
+  },
+  "ZA": {
+    "defaults": "South Africa",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        417
+      ]
+    ]
+  },
+  "GS": {
+    "defaults": "South Georgia and the South Sandwich Islands",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        419
+      ]
+    ]
+  },
+  "SS": {
+    "defaults": "South Sudan",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        421
+      ]
+    ]
+  },
+  "ES": {
+    "defaults": "Spain",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        423
+      ]
+    ]
+  },
+  "LK": {
+    "defaults": "Sri Lanka",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        425
+      ]
+    ]
+  },
+  "SD": {
+    "defaults": "Sudan",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        427
+      ]
+    ]
+  },
+  "SR": {
+    "defaults": "Suriname",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        429
+      ]
+    ]
+  },
+  "SJ": {
+    "defaults": "Svalbard and Jan Mayen",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        431
+      ]
+    ]
+  },
+  "SZ": {
+    "defaults": "Swaziland",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        433
+      ]
+    ]
+  },
+  "SE": {
+    "defaults": "Sweden",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        435
+      ]
+    ]
+  },
+  "CH": {
+    "defaults": "Switzerland",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        437
+      ]
+    ]
+  },
+  "SY": {
+    "defaults": "Syrian Arab Republic",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        439
+      ]
+    ]
+  },
+  "TW": {
+    "defaults": "Taiwan, Province of China",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        441
+      ]
+    ]
+  },
+  "TJ": {
+    "defaults": "Tajikistan",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        443
+      ]
+    ]
+  },
+  "TZ": {
+    "defaults": "Tanzania, United Republic of",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        445
+      ]
+    ]
+  },
+  "TH": {
+    "defaults": "Thailand",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        447
+      ]
+    ]
+  },
+  "TL": {
+    "defaults": "Timor-Leste",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        449
+      ]
+    ]
+  },
+  "TG": {
+    "defaults": "Togo",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        451
+      ]
+    ]
+  },
+  "TK": {
+    "defaults": "Tokelau",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        453
+      ]
+    ]
+  },
+  "TO": {
+    "defaults": "Tonga",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        455
+      ]
+    ]
+  },
+  "TT": {
+    "defaults": "Trinidad and Tobago",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        457
+      ]
+    ]
+  },
+  "TN": {
+    "defaults": "Tunisia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        459
+      ]
+    ]
+  },
+  "TR": {
+    "defaults": "Turkey",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        461
+      ]
+    ]
+  },
+  "TM": {
+    "defaults": "Turkmenistan",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        463
+      ]
+    ]
+  },
+  "TC": {
+    "defaults": "Turks and Caicos Islands",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        465
+      ]
+    ]
+  },
+  "TV": {
+    "defaults": "Tuvalu",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        467
+      ]
+    ]
+  },
+  "UG": {
+    "defaults": "Uganda",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        469
+      ]
+    ]
+  },
+  "UA": {
+    "defaults": "Ukraine",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        471
+      ]
+    ]
+  },
+  "AE": {
+    "defaults": "United Arab Emirates",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        473
+      ]
+    ]
+  },
+  "GB": {
+    "defaults": "United Kingdom",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        475
+      ]
+    ]
+  },
+  "US": {
+    "defaults": "United States",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        477
+      ]
+    ]
+  },
+  "UM": {
+    "defaults": "United States Minor Outlying Islands",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        479
+      ]
+    ]
+  },
+  "UY": {
+    "defaults": "Uruguay",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        481
+      ]
+    ]
+  },
+  "UZ": {
+    "defaults": "Uzbekistan",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        483
+      ]
+    ]
+  },
+  "VU": {
+    "defaults": "Vanuatu",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        485
+      ]
+    ]
+  },
+  "VE": {
+    "defaults": "Venezuela, Bolivarian Republic of",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        487
+      ]
+    ]
+  },
+  "VN": {
+    "defaults": "Viet Nam",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        489
+      ]
+    ]
+  },
+  "VG": {
+    "defaults": "Virgin Islands, British",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        491
+      ]
+    ]
+  },
+  "VI": {
+    "defaults": "Virgin Islands, U.S.",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        493
+      ]
+    ]
+  },
+  "WF": {
+    "defaults": "Wallis and Futuna",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        495
+      ]
+    ]
+  },
+  "EH": {
+    "defaults": "Western Sahara",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        497
+      ]
+    ]
+  },
+  "YE": {
+    "defaults": "Yemen",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        499
+      ]
+    ]
+  },
+  "ZM": {
+    "defaults": "Zambia",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        501
+      ]
+    ]
+  },
+  "ZW": {
+    "defaults": "Zimbabwe",
+    "origin": [
+      [
+        "src/translateCountryCode.js",
+        503
+      ]
+    ]
+  }
+}
